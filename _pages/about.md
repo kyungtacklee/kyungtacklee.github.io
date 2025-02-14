@@ -1,19 +1,16 @@
 ---
 layout: about
-title: about
+title: Kyungtack Lee
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Robotics enginneer, HL MANDO
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: LKT.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -22,13 +19,11 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Kyungtack Lee received the B.S. degree in mechanical engineering from Ajou University, South Korea, in 2012, and the M.S degree in mechanical engineering from the Seoul National University, South Korea, in 2022, where he is currently pursuing the Ph.D. degree in mechanical engineering. He worked as a Research Engineer at Samsung Techwin R&D Center, South Korea, from 2012 to 2015. Since 2016, he has been with HL Mando Corporation, South Korea, where he is currently a Senior Research Engineer of the Mobility Motion Control Team. His research interests include vehicle motion control and autonomous vehicle.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My overarching research aims to design control & decision-making algorithms to develop safe, robust, and efficient dynamical systems. In particular, our research is based on control theory, optimization, mathematical analysis, game theory, machine learning and robotics.

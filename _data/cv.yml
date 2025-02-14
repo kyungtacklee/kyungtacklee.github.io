@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Kyungtack LEE
     - name: Date of Birth
-      value: 14th March 1879
+      value: 11th May 1987
     - name: Languages
-      value: English, German
+      value: Korean, English
 
 - title: Education
   type: time_table
