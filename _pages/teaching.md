@@ -9,7 +9,7 @@ nav_order: 5
 ## 2024
 EVS37 Best Dialogue Award
 <figure>
-    <img src="https://kyungtacklee.github.io./assets/img/EVS_2024-480.webp" width="300">
+    <img src="https://raw.githubusercontent.com/kyungtacklee/kyungtacklee.github.io/refs/heads/master/assets/img/EVS_2024.png" width="300">
 </figure>
 
 KSAE Outstanding Paper Awarad
