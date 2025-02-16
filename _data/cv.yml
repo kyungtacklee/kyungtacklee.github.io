@@ -1,97 +1,127 @@
-- title: General Information
+- title: Basics
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Kyungtack LEE
-    - name: Date of Birth
-      value: 11th May 1987
-    - name: Languages
-      value: Korean, English
+    - name: Email
+      value: kyungtacklee@gmail.com
+    - name: URL
+      value: 	https://kyungtacklee.github.io/
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: System Design and Analysis
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Gear System Design and Analysis
+        - Multi Body Dynamics Analysis
+    - title: Dynamics and Control
       items:
-        - Description 1.
-        - Description 2.
+        - Vehicle Dynamics and Control
+        - Path Tracking Control
+    - title: Decision Making
+      items:
+        - Path and Trajectory Planning
+        - Vehicle Motion Planning
+        - Reinforced Learning
+      
+- title: Work experience
+  type: time_table
+  contents: 
+    - title: Senior Researcher
+      institution: HL Mando
+      year: 2015.08 - Present
+      description:
+        - title: Mobility Motion Control (Feb 2023 - Present)
+          contents:
+            - Integrated Chassis Control
+            - Evassive Collision Avoidance
+            - Autonomous Parking and Trailer Hitching
+        - title: System Design (Aug 2020 - Jan 2023)
+          contents:
+            - E-Corner Module
+        - title: Gear Design (Jul 2015 - Jul 2020)
+          contents:
+            - Electric Power Steering (C-EPS, R-EPS, DP-EPS)
+            - Steer by Wire
+            - Shift-by-Wire
+            - e-Drive
+    - title: Researcher 
+      institution: Samsung Techwin (Now, Hanwha Aerospace)
+      year: 2012.08 - 2015.07
+      description:
+        - Integral Helical Gear Design of Turbo Compressor
+        - Core System Desgin
+    - title: Internship 
+      institution: Samsung Techwin (Now, Hanwha Aerospace)
+      year: 2012.01 - 2012.02
+      description:
+        - Dynamics Analysis of Remote Controlled Armed Vehicles
+    - title: Internship 
+      institution: General Motors Korea
+      year: 2011.07 - 2011.08
+      description:
+        - Engine Map Tuning and Validation
+    - title: Student Intern
+      institution: Graduate School of Convergence Science and Technology, Seoul National University
+      year: 2010.01 - 2010.06
+      description:
+        - Development of Wheelchair Robot
 
-- title: Other Interests
-  type: list
+- title: Education
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Ph.D candidate in Mechanical Engineering
+      institution: Seoul National University, Seoul, Republic of Korea
+      year: 2022.09 - Present
+      description:
+        - Iteractive & Networked Robotics Laboratory(INROL) · Advisor:Dongjun Lee 
+    - title: 🎓 Master of Science in Mechanical Engineering
+      institution: Seoul National University, Seoul, Republic of Korea
+      year: 2020.09 - 2022.06
+      description:
+        - Vehicle Dynamics and Control Laboratory(VDCL) · Advisor:Kyongsu Yi
+        - Thesis:“Path Tracking Control of Four Wheel Independent Steering and Driving Vehicle Based on Adaptive Weight Optimal Control” 
+    - title: 🎓 Bachelor of Science in Mechanical Engineering
+      institution: Ajou University, Suwon, Republic of Korea
+      year: 2006.03 - 2012.06
+      description:
+      
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: Excellence Prize - Global R&D Tech Congress
+      institution: HL Global R&D Conference
+      year: 2024.12
+      description: "Integrated Chassis Control of Differential Braking and Suspension Damping Force Based on Hierarchical Architecture"
+
+    - title: Outstanding Paper Award
+      institution: The Korean Society of Automotive Engineers(KSAE)
+      year: 2024.11
+      description: "Continuous Curvature Path Planning Based on Bézier Curves for Autonomous Driving in Complex Environments"
+
+    - title: Best Dialogue Award
+      institution: The 37th International Electric Vehicle Symposium & Exhibition (EVS37)
+      year: 2024.03
+      description: "Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability"
+
+    - title: Mando Academic Training Program (학술연수과정)
+      institution: Mando Cooperation
+      year: 2020.09
+      description: Vehicle Dynamics and Control Lab., Seoul National University
+
+    - title: Excellence Project
+      institution: Mando Cooperation
+      year: 2020.04
+      description: "Development of High Torque Reduction Gear: Gear durability model based on SN curve and Gear temperature model"
+
+    - title: Best Excellence Project
+      institution: Mando Cooperation
+      year: 2018.12
+      description: "Establishment of C-EPS gear design standard and Development of in-house gear design program"
+
+    - title: Grand Prize - Global R&D Tech Congress 
+      institution: Mando Cooperation
+      year: 2017.12
+      description: "Development and Optimization of Worm Gear Based on Tooth Deformation Analysis in Electric Power Steering"

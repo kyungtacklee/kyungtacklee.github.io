@@ -2,7 +2,7 @@
 layout: about
 title: Kyungtack Lee
 permalink: /
-subtitle: Robotics enginneer, HL MANDO
+subtitle: Robotics engineer, HL MANDO
 
 profile:
   align: right
