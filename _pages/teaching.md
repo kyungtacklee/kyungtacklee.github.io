@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: News
 description: about Kyungtack
-nav: true
+nav: false
 nav_order: 5
 ---
 
