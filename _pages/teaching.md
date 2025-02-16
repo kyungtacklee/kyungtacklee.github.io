@@ -6,18 +6,43 @@ description: about Kyungtack
 nav: true
 nav_order: 5
 ---
+### To be Update
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+# 2024
+### EVS37 Best Dialogue Award
+<figure>
+    <img src="https://kyungtacklee.github.io./assets/img/EVS_2024-480.webp" width="300">
+</figure>
 
-Organize your courses by years, topics, or universities, however you like!
+### KSAE Outstanding Paper Awarad
+<figure>
+    <img src="https://kyungtacklee.github.io./assets/img/KSAE_2024-480.webp" width="300">>
+</figure>
 
+### Global R&D Tech Congress - Excellence Prize
+<figure>
+    <img src="https://kyungtacklee.github.io./assets/img/Mando_2024-480.webp" width="300">>
+</figure>
 
-<p align="center">
-<img src="assets/img/LKT.png" width=400>
-<img src="readme_preview/dark.png" width=400>
-</p>
+# 2020
+### HL Mando - Excellence Project
+<figure>
+    <img src="https://kyungtacklee.github.io./assets/img/Mando_2020_1-480.webp" width="300">>
+</figure>
 
+# 2018
+### HL Mando - Excellence Project
+<figure>
+    <img src="https://kyungtacklee.github.io./assets/img/Mando_2018-480.webp" width="300">>
+</figure>
 
-<a href="https://kyungtacklee.github.io./assets/img/LKT-480.webp">image</a>
+# 2017
+### HL Mando - Best Excellence Project
+<figure>
+    <img src="https://kyungtacklee.github.io./assets/img/Mando_2017-480.webp" width="300">>
+</figure>
 
-
+### Global R&D Tech Congress - Grand Prize
+<figure>
+    <img src="https://kyungtacklee.github.io./assets/img/Mando_2017+TechCong-480.webp" width="300">>
+</figure>
