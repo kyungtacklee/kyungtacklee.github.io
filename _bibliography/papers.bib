@@ -3,113 +3,80 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+
+@article{ktlee2023estiKSAE,
+  bibtex_show = {false},
+  title       = {Estimation of Vehicle Side Slip Angle Based on Combined Model with Sliding Mode Observer},
+  author      = {Kyungtack Lee, Jinwoo Seol, Youngeun Cho, Sangjin Ko},
+  abstract    = {본 논문에서는 차량의 side slip angle 추정 성능을 개선하기 위해, Kalman filter algorithm을 이용한 Sliding Mode Observer (SMO) 결합 모델에 기반한 추정 방법을 제안한다. 최근 Software Defined Vehicle로 불리는 중앙 소프트웨어에 기반한 차량의 통합 제어 구조로의 전환은 차량의 상태와 지표를 기반으로 주행 모드와 각 Actuator의 제어량이 결정되기 때문에, 정확하고 강건하게 차량의 상태 정보를 얻는 것이 중요하다. 그러나 side slip angle은 상용 센서를 통해 정확한 값을 얻기 어렵고 비용이 비싸다는 문제가 있으며 특히 vehicle, tire model의 비선형성으로 인한 오차는 dynamics 기반의 추정 성능을 떨어뜨린다. 따라서 본 연구에서는 불확실성에 강건한 추정기를 설계하기 위하여 Sliding Mode Observer 를 사용하고 모델의 비선형성과 오차를 보상하기 위해 kinematic model로부터 구해진 상태 값을 Kalman filter을 이용한 combined model을 통해 추정 성능을 개선하였다. 그 결과 제안된 방법은 기존의 방법의 단점을 서로 보상함으로써 보다 빠른 반응과 정확한 추정을 할 수 있다. 제안된 방법은 Carsim-MATLAB 시뮬레이션 환경과 RT3000과 GPS를 이용한 실차 환경에서 기존의 방법과 비교하였으며 그 성능이 우수함을 확인하였다.},
+  year        = {2023},
+  publisher   = {KSAE Annual Conference Proceedings},
+  abbr        = {KSAE Conf. Proc.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{ktlee2022GearKSAE,
+  bibtex_show = {false},
+  title       = {Optimization of Worm Gear Profile Based on Tooth Deformation Analysis},
+  author      = {Kyungtack Lee, Myungsub Son},
+  abstract    = {The optimization method of tooth modification is presented to improve performance of the worm gear applied to the chassis system. In the flow of electrification of the vehicle, the chassis parts, such as steering and brakes, are being converted to a by-wire type. The plastic worm gear is widely applied to the reducer of these modular parts because it has advantages in term of size, weight, gear ratio, noise and vibration. In order to improve fuel efficiency, space and performance of the vehicle, improving the reducer of the modular parts is required. In this paper, we examine failure mechanism of plastic worm gear caused by tooth deformation and stress concentration and propose the worm gear meshing model to analyze the meshing process considered for deformation. Through this model, the load distribution and deformation of contact point can be obtained at every meshing step. The tooth profile optimization is performed to minimize maximum load using evolutionary strategy. The effect of tooth modification is compared with the finite element analysis at the theoretical level, and the proposed design is evaluated by durability test.},
+  year        = {2022},
+  publisher   = {KSAE Annual Conference Proceedings},
+  abbr        = {KSAE Conf. Proc.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{ktlee2020systemKSAE,
+  bibtex_show = {false},
+  title       = {System Optimization based on Functional Requirements by System Engineering Methodology},
+  author      = {Sunhong Park, Heegyu Shin, Kyungtack Lee},
+  abstract    = {The steering system is becoming more complicated by the diversification and the development of high performance of electrical components. This trends have created tremendous requirements. Mando Steering R&D Center adopted System Engineering & MBSE (Model Based System Engineering) methodology to systematically manages and to develop the functional/functional safety requirements for the steering system. In this paper, the C-EPS durability test specifications were improved based on ’’Design to Function” which is an important methodology of system engineering. The test duration was dramatically shortened by optimizing the durability test specifications. As a result, the system was optimized. The weight and size of worm-wheel which is a reduction gear of C-EPS was reduced based on the improved durability test specifications.},
+  year        = {2020},
+  publisher   = {KSAE Annual Conference Proceedings},
+  abbr        = {KSAE Conf. Proc.}
+}
+
+
+
+
+
+@article{einstein1905photoelectriceffect,
+  bibtex_show = {true},
+  abbr        = {Ann. Phys.},
+  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
+  author      = {Albert Einstein},
+  journal     = {Ann. Phys.},
+  volume      = {322},
+  number      = {6},
+  pages       = {132--148},
+  year        = {1905},
+  doi         = {10.1002/andp.19053220607},
+  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
+  award_name  = {Nobel Prize}
 }
 
 @article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  abbr              = {PhysRev},
+  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
+  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  journal           = {Phys. Rev.},
+  location          = {New Jersey},
+  volume            = {47},
+  issue             = {10},
+  pages             = {777--780},
+  numpages          = {0},
+  year              = {1935},
+  month             = {May},
+  publisher         = aps,
+  doi               = {10.1103/PhysRev.47.777},
+  url               = {http://link.aps.org/doi/10.1103/PhysRev.47.777},
+  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf               = {example_pdf.pdf},
+  altmetric         = {248277},
+  dimensions        = {true},
+  google_scholar_id = {qyhmnyLat1gC},
+  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
+  annotation        = {* Example use of superscripts<br>† Albert Einstein},
+  selected          = {true},
+  inspirehep_id     = {3255}
 }

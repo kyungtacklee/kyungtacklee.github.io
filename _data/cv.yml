@@ -9,7 +9,7 @@
       value: 	https://kyungtacklee.github.io/
 
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
     - title: System Design and Analysis
@@ -77,13 +77,13 @@
       year: 2022.09 - Present
       description:
         - Iteractive & Networked Robotics Laboratory(INROL) · Advisor:Dongjun Lee 
-    - title: 🎓 Master of Science in Mechanical Engineering
+    - title: Master of Science in Mechanical Engineering
       institution: Seoul National University, Seoul, Republic of Korea
       year: 2020.09 - 2022.06
       description:
         - Vehicle Dynamics and Control Laboratory(VDCL) · Advisor:Kyongsu Yi
         - Thesis:“Path Tracking Control of Four Wheel Independent Steering and Driving Vehicle Based on Adaptive Weight Optimal Control” 
-    - title: 🎓 Bachelor of Science in Mechanical Engineering
+    - title: Bachelor of Science in Mechanical Engineering
       institution: Ajou University, Suwon, Republic of Korea
       year: 2006.03 - 2012.06
       description:
