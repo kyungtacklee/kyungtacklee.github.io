@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Journal articles / Conference proceedings / Patents
 nav: true
 nav_order: 2
