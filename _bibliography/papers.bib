@@ -6,7 +6,7 @@
 @article{ktlee2025inteWEVJ,
   bibtex_show = {true},
   title       = {Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability},
-  author      = {Kyungtack Lee*, Jinwoo Seol},
+  author      = {Lee*,Kyungtack and Seol,Jinwoo},
   abstract    = {This paper describes an integrated control strategy that utilizes semi-active suspension and differential braking to enhance lateral stability while maintaining roll performance. The integrated control architecture adopts a hierarchical structure consisting of an estimator, a supervisor, a controller, and an allocator. In the estimation layer, an algorithm is proposed to robustly estimate the side slip angle and roll angle in various situations. The control mode is established by the supervision layer based on the state of the vehicle. The maneuverability mode tracks the driver’s intentions, and the lateral stability mode ensures the vehicle’s stability. Reference values such as yaw rate and roll angle are determined by the control mode. In the controller layer, the yaw and roll moments are generated using sliding mode control to achieve the target yaw rate and roll angle. Brake torque and suspension damping force are distributed to each wheel in the allocator layer. In particular, a damping distribution method based on the roll region index is proposed. The proposed method is compared with conventional methods, such as full stiff damping and yaw-assisted damping, through simulation and real-world evaluation. The tests demonstrate that the proposed approach enhances lateral and roll stability, particularly regarding maximum side slip and roll angle values. The roll-region-index-based distribution method reduces the maximum roll angle by about 17.4% and the maximum side slip angle by about 8.7% compared to each conventional method. Compared to conventional methods, the proposed method showed more stable driving performance by ensuring stability in both directions in extreme lane change situations.},
   journal     = {World Electric Vehicle Journal},
   volume      = {16},
@@ -21,7 +21,7 @@
 @article{ktlee2024inteEVS37,
   bibtex_show = {true},
   title       = {Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability},
-  author      = {Kyungtack Lee*, Jinwoo Seol},
+  author      = {Lee*,Kyungtack and Seol,Jinwoo and Cho,Youngeun and Ko,Sangjin},
   abstract    = {This paper describes an integrated control strategy that utilizes semi-active suspension and differential braking to enhance lateral stability while maintaining roll performance. The integrated control architecture adopts a hierarchical structure consisting of an estimator, a supervisor, a controller, and an allocator. In the estimation layer, an algorithm is proposed to robustly estimate the side slip angle and roll angle in various situations. The control mode is established by the supervision layer based on the state of the vehicle. The maneuverability mode tracks the driver’s intentions, and the lateral stability mode ensures the vehicle’s stability. Reference values such as yaw rate and roll angle are determined by the control mode. In the controller layer, the yaw and roll moments are generated using sliding mode control to achieve the target yaw rate and roll angle. Brake torque and suspension damping force are distributed to each wheel in the allocator layer. In particular, a damping distribution method based on the roll region index is proposed. The proposed method is compared with conventional methods, such as full stiff damping and yaw-assisted damping, through simulation and real-world evaluation. The tests demonstrate that the proposed approach enhances lateral and roll stability, particularly regarding maximum side slip and roll angle values. The roll-region-index-based distribution method reduces the maximum roll angle by about 17.4% and the maximum side slip angle by about 8.7% compared to each conventional method. Compared to conventional methods, the proposed method showed more stable driving performance by ensuring stability in both directions in extreme lane change situations.},
   journal     = {International Electric Vehicle Symposium and Exhibition},
   year        = {2024},
@@ -32,9 +32,9 @@
 }
 
 @article{ktlee2024veziKSAE,
-  bibtex_show = {False},
+  bibtex_show = {true},
   title       = {Continuous Curvature Path Planning Based on Bézier Curves for Autonomous Driving in Complex Environments},
-  author      = {Kyungtack Lee*, Jinwoo Seol, Youngeun Cho, Sangjin Ko, Jiyung Jung},
+  author      = {Lee*,Kyungtack and Seol,Jinwoo and Cho,Youngeun and Ko,Sangjin and Jung,Jihyun},
   abstract    = {},
   journal     = {KSAE Annual Conference Proceedings},
   year        = {2024},
@@ -45,9 +45,9 @@
 }
 
 @article{ktlee2023estiKSAE,
-  bibtex_show = {false},
+  bibtex_show = {true},
   title       = {Estimation of Vehicle Side Slip Angle Based on Combined Model with Sliding Mode Observer},
-  author      = {Kyungtack Lee*, Jinwoo Seol, Youngeun Cho, Sangjin Ko},
+  author      = {Lee*,Kyungtack and Seol,Jinwoo and Cho,Youngeun and Ko,Sangjin},
   abstract    = {본 논문에서는 차량의 side slip angle 추정 성능을 개선하기 위해, Kalman filter algorithm을 이용한 Sliding Mode Observer (SMO) 결합 모델에 기반한 추정 방법을 제안한다. 최근 Software Defined Vehicle로 불리는 중앙 소프트웨어에 기반한 차량의 통합 제어 구조로의 전환은 차량의 상태와 지표를 기반으로 주행 모드와 각 Actuator의 제어량이 결정되기 때문에, 정확하고 강건하게 차량의 상태 정보를 얻는 것이 중요하다. 그러나 side slip angle은 상용 센서를 통해 정확한 값을 얻기 어렵고 비용이 비싸다는 문제가 있으며 특히 vehicle, tire model의 비선형성으로 인한 오차는 dynamics 기반의 추정 성능을 떨어뜨린다. 따라서 본 연구에서는 불확실성에 강건한 추정기를 설계하기 위하여 Sliding Mode Observer 를 사용하고 모델의 비선형성과 오차를 보상하기 위해 kinematic model로부터 구해진 상태 값을 Kalman filter을 이용한 combined model을 통해 추정 성능을 개선하였다. 그 결과 제안된 방법은 기존의 방법의 단점을 서로 보상함으로써 보다 빠른 반응과 정확한 추정을 할 수 있다. 제안된 방법은 Carsim-MATLAB 시뮬레이션 환경과 RT3000과 GPS를 이용한 실차 환경에서 기존의 방법과 비교하였으며 그 성능이 우수함을 확인하였다.},
   journal     = {KSAE Annual Conference Proceedings},
   year        = {2023},
@@ -55,10 +55,21 @@
   abbr        = {KSAE}
 }
 
-@article{ktlee2022GearKSAE,
-  bibtex_show = {false},
+@article{ktlee2022thesis,
+  title     = {Path Tracking Control of Four Wheel Independent Steering and Driving Vehicle Based on Adaptive Weight Optimal Control},
+  author    = {Kyungtack Lee},
+  abstract  = {An optimal controller applying an adaptive weight strategy is designed for path tracking control of a four-wheel independent steering and driving (4WISD) vehicle. This system changes the driving mode and modifies the priority of states according to the driving situation to improve the overall performance of the vehicle. It is implemented by modifying the performance index of an optimal control according to the predicted states using model predictive control (MPC). To do this, a dynamic model and a path tracking model of a 4WISD vehicle are determined and used as reference models for MPC. The path tracking controller is designed using MPC, and tracking performance is secured through state constraint conditions. The proposed adaptive weight strategy modifies the coefficients of the performance index depending on the expected driving conditions. In this study, the future state values of the MPC are used as the expected driving conditions. Lastly, the adaptive weight function is optimized through learning using an evolutionary strategy. The fitness function of the evolutionary strategy includes the conditions of a vehicle that are not considered by the path tracking model such as ride comfort. Handling stability and ride comfort are optimized while maintaining the lateral position error within criteria, using the constraints of MPC and optimization of adaptive weight function. Learning and simulation were conducted in a MATLAB/CarSim environment. The proposed method is compared with conventional models, and the verification results for lateral position error, yaw rate error, lateral acceleration and lateral jerk are presented to confirm the improvement of the overall performance of the vehicle.},
+  journal   = {Seoul National University},
+  year      = {2022},
+  publisher = {Seoul National University},
+  abbr      = {Thesis},
+  html      = {https://s-space.snu.ac.kr/handle/10371/187609}
+}
+
+@article{ktlee2022sGearKSAE,
+  bibtex_show = {true},
   title       = {Optimization of Worm Gear Profile Based on Tooth Deformation Analysis},
-  author      = {Kyungtack Lee*, Myungsub Son},
+  author      = {Lee*,Kyungtack and Son,Myungsub},
   abstract    = {The optimization method of tooth modification is presented to improve performance of the worm gear applied to the chassis system. In the flow of electrification of the vehicle, the chassis parts, such as steering and brakes, are being converted to a by-wire type. The plastic worm gear is widely applied to the reducer of these modular parts because it has advantages in term of size, weight, gear ratio, noise and vibration. In order to improve fuel efficiency, space and performance of the vehicle, improving the reducer of the modular parts is required. In this paper, we examine failure mechanism of plastic worm gear caused by tooth deformation and stress concentration and propose the worm gear meshing model to analyze the meshing process considered for deformation. Through this model, the load distribution and deformation of contact point can be obtained at every meshing step. The tooth profile optimization is performed to minimize maximum load using evolutionary strategy. The effect of tooth modification is compared with the finite element analysis at the theoretical level, and the proposed design is evaluated by durability test.},
   journal     = {KSAE Annual Conference Proceedings},
   year        = {2022},
@@ -67,9 +78,9 @@
 }
 
 @article{ktlee2020systemKSAE,
-  bibtex_show = {false},
+  bibtex_show = {true},
   title       = {System Optimization based on Functional Requirements by System Engineering Methodology},
-  author      = {Sunhong Park*, Heegyu Shin, Kyungtack Lee},
+  author      = {Park*,Sunhong and Shin,Heegyu and Lee,Kyungtack},
   abstract    = {The steering system is becoming more complicated by the diversification and the development of high performance of electrical components. This trends have created tremendous requirements. Mando Steering R&D Center adopted System Engineering & MBSE (Model Based System Engineering) methodology to systematically manages and to develop the functional/functional safety requirements for the steering system. In this paper, the C-EPS durability test specifications were improved based on ’’Design to Function” which is an important methodology of system engineering. The test duration was dramatically shortened by optimizing the durability test specifications. As a result, the system was optimized. The weight and size of worm-wheel which is a reduction gear of C-EPS was reduced based on the improved durability test specifications.},
   journal     = {KSAE Annual Conference Proceedings},
   year        = {2020},
