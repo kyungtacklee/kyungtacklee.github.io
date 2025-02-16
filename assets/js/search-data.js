@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "news-github-pages-open-smile",
+        },{id: "post-title-of-post",
+      
+        title: "Title of post",
+      
+      description: "Description of post",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/post_title/";
+        
+      },
+    },{id: "news-github-pages-open-smile",
           title: 'Github pages open! :smile:',
           description: "",
           section: "News",},{id: "projects-project-1",
