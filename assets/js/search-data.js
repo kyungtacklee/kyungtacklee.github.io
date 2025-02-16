@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-news",
-          title: "News",
-          description: "about Kyungtack",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "post-title-of-post",
       
         title: "Title of post",
