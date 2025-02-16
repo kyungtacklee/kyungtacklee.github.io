@@ -1,9 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"WEVJ":
+  url: https://www.mdpi.com/journal/wevj
+  color: "#009f36"
+
+"EVS37":
+  url: https://evs37korea.org/
+  color: "#009f36"
+
+"KSAE":
+  url: https://www.ksae.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"Patent":
+  color: "#d3d3d3"

@@ -3,80 +3,229 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{ktlee2025inteWEVJ,
+  bibtex_show = {true},
+  title       = {Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability},
+  author      = {Kyungtack Lee*, Jinwoo Seol},
+  abstract    = {This paper describes an integrated control strategy that utilizes semi-active suspension and differential braking to enhance lateral stability while maintaining roll performance. The integrated control architecture adopts a hierarchical structure consisting of an estimator, a supervisor, a controller, and an allocator. In the estimation layer, an algorithm is proposed to robustly estimate the side slip angle and roll angle in various situations. The control mode is established by the supervision layer based on the state of the vehicle. The maneuverability mode tracks the driver’s intentions, and the lateral stability mode ensures the vehicle’s stability. Reference values such as yaw rate and roll angle are determined by the control mode. In the controller layer, the yaw and roll moments are generated using sliding mode control to achieve the target yaw rate and roll angle. Brake torque and suspension damping force are distributed to each wheel in the allocator layer. In particular, a damping distribution method based on the roll region index is proposed. The proposed method is compared with conventional methods, such as full stiff damping and yaw-assisted damping, through simulation and real-world evaluation. The tests demonstrate that the proposed approach enhances lateral and roll stability, particularly regarding maximum side slip and roll angle values. The roll-region-index-based distribution method reduces the maximum roll angle by about 17.4% and the maximum side slip angle by about 8.7% compared to each conventional method. Compared to conventional methods, the proposed method showed more stable driving performance by ensuring stability in both directions in extreme lane change situations.},
+  journal     = {World Electric Vehicle Journal},
+  volume      = {16},
+  number      = {2},
+  pages       = {91},
+  year        = {2025},
+  publisher   = {MDPI},
+  abbr        = {WEVJ},
+  doi         = {https://doi.org/10.3390/wevj16020091}
+}
+
+@article{ktlee2024inteEVS37,
+  bibtex_show = {true},
+  title       = {Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability},
+  author      = {Kyungtack Lee*, Jinwoo Seol},
+  abstract    = {This paper describes an integrated control strategy that utilizes semi-active suspension and differential braking to enhance lateral stability while maintaining roll performance. The integrated control architecture adopts a hierarchical structure consisting of an estimator, a supervisor, a controller, and an allocator. In the estimation layer, an algorithm is proposed to robustly estimate the side slip angle and roll angle in various situations. The control mode is established by the supervision layer based on the state of the vehicle. The maneuverability mode tracks the driver’s intentions, and the lateral stability mode ensures the vehicle’s stability. Reference values such as yaw rate and roll angle are determined by the control mode. In the controller layer, the yaw and roll moments are generated using sliding mode control to achieve the target yaw rate and roll angle. Brake torque and suspension damping force are distributed to each wheel in the allocator layer. In particular, a damping distribution method based on the roll region index is proposed. The proposed method is compared with conventional methods, such as full stiff damping and yaw-assisted damping, through simulation and real-world evaluation. The tests demonstrate that the proposed approach enhances lateral and roll stability, particularly regarding maximum side slip and roll angle values. The roll-region-index-based distribution method reduces the maximum roll angle by about 17.4% and the maximum side slip angle by about 8.7% compared to each conventional method. Compared to conventional methods, the proposed method showed more stable driving performance by ensuring stability in both directions in extreme lane change situations.},
+  journal     = {International Electric Vehicle Symposium and Exhibition},
+  year        = {2024},
+  publisher   = {EVS37},
+  abbr        = {EVS37},
+  award       = {Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability},
+  award_name  = {Best Dialogue Award}
+}
+
+@article{ktlee2024veziKSAE,
+  bibtex_show = {False},
+  title       = {Continuous Curvature Path Planning Based on Bézier Curves for Autonomous Driving in Complex Environments},
+  author      = {Kyungtack Lee*, Jinwoo Seol, Youngeun Cho, Sangjin Ko, Jiyung Jung},
+  abstract    = {},
+  journal     = {KSAE Annual Conference Proceedings},
+  year        = {2024},
+  publisher   = {KSAE Annual Conference Proceedings},
+  abbr        = {KSAE},
+  award       = {Continuous Curvature Path Planning Based on Bézier Curves for Autonomous Driving in Complex Environments},
+  award_name  = {Outstanding Paper Award}
+}
 
 @article{ktlee2023estiKSAE,
   bibtex_show = {false},
   title       = {Estimation of Vehicle Side Slip Angle Based on Combined Model with Sliding Mode Observer},
-  author      = {Kyungtack Lee, Jinwoo Seol, Youngeun Cho, Sangjin Ko},
+  author      = {Kyungtack Lee*, Jinwoo Seol, Youngeun Cho, Sangjin Ko},
   abstract    = {본 논문에서는 차량의 side slip angle 추정 성능을 개선하기 위해, Kalman filter algorithm을 이용한 Sliding Mode Observer (SMO) 결합 모델에 기반한 추정 방법을 제안한다. 최근 Software Defined Vehicle로 불리는 중앙 소프트웨어에 기반한 차량의 통합 제어 구조로의 전환은 차량의 상태와 지표를 기반으로 주행 모드와 각 Actuator의 제어량이 결정되기 때문에, 정확하고 강건하게 차량의 상태 정보를 얻는 것이 중요하다. 그러나 side slip angle은 상용 센서를 통해 정확한 값을 얻기 어렵고 비용이 비싸다는 문제가 있으며 특히 vehicle, tire model의 비선형성으로 인한 오차는 dynamics 기반의 추정 성능을 떨어뜨린다. 따라서 본 연구에서는 불확실성에 강건한 추정기를 설계하기 위하여 Sliding Mode Observer 를 사용하고 모델의 비선형성과 오차를 보상하기 위해 kinematic model로부터 구해진 상태 값을 Kalman filter을 이용한 combined model을 통해 추정 성능을 개선하였다. 그 결과 제안된 방법은 기존의 방법의 단점을 서로 보상함으로써 보다 빠른 반응과 정확한 추정을 할 수 있다. 제안된 방법은 Carsim-MATLAB 시뮬레이션 환경과 RT3000과 GPS를 이용한 실차 환경에서 기존의 방법과 비교하였으며 그 성능이 우수함을 확인하였다.},
+  journal     = {KSAE Annual Conference Proceedings},
   year        = {2023},
   publisher   = {KSAE Annual Conference Proceedings},
-  abbr        = {KSAE Conf. Proc.}
+  abbr        = {KSAE}
 }
 
 @article{ktlee2022GearKSAE,
   bibtex_show = {false},
   title       = {Optimization of Worm Gear Profile Based on Tooth Deformation Analysis},
-  author      = {Kyungtack Lee, Myungsub Son},
+  author      = {Kyungtack Lee*, Myungsub Son},
   abstract    = {The optimization method of tooth modification is presented to improve performance of the worm gear applied to the chassis system. In the flow of electrification of the vehicle, the chassis parts, such as steering and brakes, are being converted to a by-wire type. The plastic worm gear is widely applied to the reducer of these modular parts because it has advantages in term of size, weight, gear ratio, noise and vibration. In order to improve fuel efficiency, space and performance of the vehicle, improving the reducer of the modular parts is required. In this paper, we examine failure mechanism of plastic worm gear caused by tooth deformation and stress concentration and propose the worm gear meshing model to analyze the meshing process considered for deformation. Through this model, the load distribution and deformation of contact point can be obtained at every meshing step. The tooth profile optimization is performed to minimize maximum load using evolutionary strategy. The effect of tooth modification is compared with the finite element analysis at the theoretical level, and the proposed design is evaluated by durability test.},
+  journal     = {KSAE Annual Conference Proceedings},
   year        = {2022},
   publisher   = {KSAE Annual Conference Proceedings},
-  abbr        = {KSAE Conf. Proc.}
+  abbr        = {KSAE}
 }
 
 @article{ktlee2020systemKSAE,
   bibtex_show = {false},
   title       = {System Optimization based on Functional Requirements by System Engineering Methodology},
-  author      = {Sunhong Park, Heegyu Shin, Kyungtack Lee},
+  author      = {Sunhong Park*, Heegyu Shin, Kyungtack Lee},
   abstract    = {The steering system is becoming more complicated by the diversification and the development of high performance of electrical components. This trends have created tremendous requirements. Mando Steering R&D Center adopted System Engineering & MBSE (Model Based System Engineering) methodology to systematically manages and to develop the functional/functional safety requirements for the steering system. In this paper, the C-EPS durability test specifications were improved based on ’’Design to Function” which is an important methodology of system engineering. The test duration was dramatically shortened by optimizing the durability test specifications. As a result, the system was optimized. The weight and size of worm-wheel which is a reduction gear of C-EPS was reduced based on the improved durability test specifications.},
+  journal     = {KSAE Annual Conference Proceedings},
   year        = {2020},
   publisher   = {KSAE Annual Conference Proceedings},
-  abbr        = {KSAE Conf. Proc.}
+  abbr        = {KSAE}
 }
 
-
-
-
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+@article{ktlee_patent1,
+  title           = {Shaft Collar of Integral Compressor System},
+  author          = {Kyungtack Lee},
+  year            = {2014},
+  additional_info = {Registration No.-KR(10-2002564-0000)},
+  abbr            = {Patent}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@article{ktlee_patent2,
+  title           = {Reducer of Electric Power Steering Apparatus},
+  author          = {Kyungtack Lee},
+  year            = {2016},
+  additional_info = {Registration No.-KR(10-2433158-0000)},
+  abbr            = {Patent}
 }
+
+@article{ktlee_patent3,
+  title           = {Reducer of Power Steering Apparatus for Vehicle},
+  author          = {Kyungtack Lee},
+  year            = {2016},
+  additional_info = {Registration No.-KR(10-2543217-0000)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent4,
+  title           = {Reducer for vehicle},
+  author          = {Kyungtack Lee},
+  year            = {2017},
+  additional_info = {Registration No.-KR(10-2459548-0000)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent5,
+  title           = {Reducer of Electric Power Steering Apparatus},
+  author          = {Kyungtack Lee},
+  year            = {2017},
+  additional_info = {Registration No.-KR(10-2566963-0000), US(10760666), Application No.-EU(102017217605), CN(201710911456)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent6,
+  title           = {Reducer for vehicle},
+  author          = {Kyungtack Lee},
+  year            = {2017},
+  additional_info = {Registration No.-KR(10-1866098-0000)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent7,
+  title           = {Reducer for vehicle},
+  author          = {Kyungtack Lee},
+  year            = {2018},
+  additional_info = {Registration No.-KR(10-1849042-0000)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent8,
+  title           = {Reducer of Electric Power Steering Apparatus},
+  author          = {Kyungtack Lee},
+  year            = {2018},
+  additional_info = {Registration No.-KR(10-2369862-0000)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent9,
+  title           = {Reducer of Electric Power Steering Apparatus},
+  author          = {Kyungtack Lee},
+  year            = {2018},
+  additional_info = {Registration No.-KR(10-2098051-0000), US(11105394), EU(102019213987), CN(ZL201910872037)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent10,
+  title           = {TRANSMISSION AND ELECTRIC DRIVE DEVICE COMPRISING THE SAME},
+  author          = {Kyungtack Lee},
+  year            = {2019},
+  additional_info = {Application No.-KR(10-2023-0029654), US(18/241233)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent11,
+  title           = {E-CORNER MODULE},
+  author          = {Kyungtack Lee},
+  year            = {2020},
+  additional_info = {Application No.-KR(10-2022-0112000)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent12,
+  title           = {WHEEL MODULE FOR VEHICLE},
+  author          = {Kyungtack Lee},
+  year            = {2021},
+  additional_info = {Application No.-KR(10-2023-0054172)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent13,
+  title           = {WHEEL MODULE FOR VEHICLE},
+  author          = {Kyungtack Lee},
+  year            = {2022},
+  additional_info = {Registration No.-KR(10-2660410-0000)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent14,
+  title           = {SUSPENSION FOR 4-WHEEL INDEPENDENT DRIVING AND STEERING VHEICLE, AND CONTROL METHOD THEREOF},
+  author          = {Kyungtack Lee},
+  year            = {2023},
+  additional_info = {Application No.-KR(10-2023-0172555), CN(202411547535)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent15,
+  title           = {SUSPENSION CONTROL APPARATUS CAPABLE OF CONTROLLIG SUSPENSION ACCORDING TO STEERING MODE, AND METHOD THEREOF},
+  author          = {Kyungtack Lee},
+  year            = {2023},
+  additional_info = {Application No.-KR(10-2023-0172556), US(18/762504), CN(202410825943)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent16,
+  title           = {Device and method for vehicle pose estimation, non-transitory computer-readable storage medium storing program for performing the method},
+  author          = {Kyungtack Lee},
+  year            = {2023},
+  additional_info = {Application No.-KR(10-2023-0181784)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent17,
+  title           = {APPARATUS AND METHOD FOR CONTROLLING SUSPENSION, AND VEHICLE INCLUDING THE SAME},
+  author          = {Kyungtack Lee},
+  year            = {2023},
+  additional_info = {Application No.-KR(10-2024-0047262), US(18/917046), CN(202411271547)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent18,
+  title           = {APPARATUS FOR ESTIMATING SIDE SLIP ANGLE, AND METHOD THEREOF},
+  author          = {Kyungtack Lee},
+  year            = {2023},
+  additional_info = {Application No.-KR(10-2023-0172557), US(18/827754), CN(202410834291)},
+  abbr            = {Patent}
+}
+
+@article{ktlee_patent19,
+  title           = {Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability},
+  author          = {Kyungtack Lee},
+  year            = {2024},
+  additional_info = {Application No.-KR(10-2024-0052873)},
+  abbr            = {Patent}
+}
+
