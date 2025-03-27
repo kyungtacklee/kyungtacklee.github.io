@@ -41,6 +41,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/post_title/";
         
       },
+    },{id: "post-title-of-post",
+      
+        title: "Title of post",
+      
+      description: "Description of post",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/post_title-copy/";
+        
+      },
     },{id: "news-github-pages-open-smile",
           title: 'Github pages open! :smile:',
           description: "",
