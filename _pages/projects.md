@@ -2,11 +2,11 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: [HL Mando, SNU, Samsung Techwin]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
