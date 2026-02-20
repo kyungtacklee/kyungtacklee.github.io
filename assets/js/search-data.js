@@ -16,19 +16,33 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-research",
-          title: "Research",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
         },{id: "nav-publications",
           title: "Publications",
           description: "Journal articles / Conference proceedings / Patents",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-research-amp-idea",
+          title: "Research &amp; Idea",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/Post/index.html";
           },
         },{id: "post-title-of-post",
       
