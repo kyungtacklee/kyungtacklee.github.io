@@ -31,7 +31,7 @@ ninja.data = [{
             window.location.href = "/projects/";
           },
         },{id: "nav-news",
-          title: "news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -61,6 +61,9 @@ ninja.data = [{
       },
     },{id: "news-github-pages-open-smile",
           title: 'Github pages open! :smile:',
+          description: "",
+          section: "News",},{id: "news-award",
+          title: 'Award',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
