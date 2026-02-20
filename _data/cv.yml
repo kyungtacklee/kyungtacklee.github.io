@@ -12,19 +12,18 @@
 - title: Research Interests
   type: nested_list
   contents:
-    - title: System Design and Analysis
-      items:
-        - Gear System Design and Analysis
-        - Multi Body Dynamics Analysis
     - title: Dynamics and Control
       items:
         - Vehicle Dynamics and Control
         - Path Tracking Control
     - title: Decision Making
       items:
-        - Path and Trajectory Planning
-        - Vehicle Motion Planning
+        - Motion Planning
         - Reinforced Learning
+    - title: System Design and Analysis
+      items:
+        - Gear System Design and Analysis
+        - Multi Body Dynamics Analysis
       
 - title: Work experience
   type: time_table
@@ -91,12 +90,19 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: Outstanding Paper Award (Oral Session)
+      institution: The Korean Society of Automotive Engineers(KSAE)
+      year: 2025.11
+      description: 
+        - "Lyapunov-Informed Model Predictive Path Integral Control for Robust Trailer Hitch Assist under Perception Uncertainty"
+    - title: 특허상 추가
+    - title: 특별포상 추가
     - title: Excellence Prize - Global R&D Tech Congress
       institution: HL Global R&D Conference
       year: 2024.12
       description: 
         - "Integrated Chassis Control of Differential Braking and Suspension Damping Force Based on Hierarchical Architecture"
-    - title: Outstanding Paper Award
+    - title: Outstanding Paper Award (Poster Session)
       institution: The Korean Society of Automotive Engineers(KSAE)
       year: 2024.11
       description: 
