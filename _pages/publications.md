@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Journal articles / Conference proceedings / Patents
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <!-- _pages/publications.md -->

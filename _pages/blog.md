@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: /blog/
-title: Research
+permalink: /Post/
+title: Research & Idea
 nav: true
-nav_order: 2
+nav_order: 5
 pagination:
   enabled: true
   collection: posts
