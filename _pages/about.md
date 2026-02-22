@@ -6,7 +6,7 @@ subtitle: Vehicle Dynamics and Control Engineer, HL MANDO
 
 profile:
   align: right
-  image: LKT.jpg
+  image: LKT_01.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
