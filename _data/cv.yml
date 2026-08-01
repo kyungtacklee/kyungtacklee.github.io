@@ -2,133 +2,214 @@
   type: map
   contents:
     - name: Name
-      value: Kyungtack LEE
+      value: Kyungtack Lee
     - name: Email
       value: kyungtacklee@gmail.com
-    - name: URL
-      value: 	https://kyungtacklee.github.io/
+    - name: Website
+      value: https://kyungtacklee.github.io/
 
+- title: Professional Summary
+  type: list
+  contents:
+    - Vehicle motion control and autonomous driving engineer with more than ten years of experience in automotive and production-oriented engineering. Technical lead and project owner for safety-critical planning and control functions, with end-to-end experience spanning algorithm architecture, simulation, real-time implementation, vehicle integration, tuning, and validation.
 
-- title: Research Interests
+- title: Core Competencies
   type: nested_list
   contents:
-    - title: Dynamics and Control
+    - title: Planning and Control
       items:
-        - Vehicle Dynamics and Control
-        - Path Tracking Control
-    - title: Decision Making
+        - Motion planning, path generation, and path tracking control
+        - Vehicle stability control and integrated chassis control
+        - Optimization-based control and state estimation
+    - title: Vehicle Engineering
       items:
-        - Motion Planning
-        - Reinforced Learning
-    - title: System Design and Analysis
+        - Vehicle dynamics, actuator coordination, vehicle integration, and calibration
+        - In-vehicle testing and recorded-data analysis
+    - title: Programming
       items:
-        - Gear System Design and Analysis
-        - Multi Body Dynamics Analysis
-      
-- title: Work experience
+        - C for production software analysis and development
+        - C++, Python, and MATLAB
+    - title: Model-Based and Real-Time Development
+      items:
+        - MATLAB/Simulink and dSPACE MicroAutoBox II
+        - Real-time model build and deployment and rapid control prototyping
+    - title: NVIDIA Platforms
+      items:
+        - NVIDIA Jetson AGX and Isaac Sim
+    - title: Simulation and Validation
+      items:
+        - CarSim, CarMaker, scenario-based simulation, and recorded-data analysis
+        - Vehicle-level evaluation against measurable performance criteria
+    - title: Automotive Development Processes
+      items:
+        - AUTOSAR-aligned and requirements-based development
+        - Unit and integration testing, configuration and change management, and vehicle-level verification
+        - Familiarity with ISO 26262 Functional Safety, ISO 21448 SOTIF, and Automotive SPICE
+
+- title: Professional Experience
   type: time_table
-  contents: 
-    - title: Senior Researcher
+  contents:
+    - title: Senior Research Engineer
       institution: HL Mando
       year: 2015.08 - Present
       description:
-        - title: Mobility Motion Control (Feb 2023 - Present)
+        - title: Mobility Motion Control (2023 - Present)
           contents:
-            - Integrated Chassis Control
-            - Evassive Collision Avoidance
-            - Autonomous Parking and Trailer Hitching
-        - title: System Design (Aug 2020 - Jan 2023)
+            - Technical lead and project owner for automotive planning and control functions
+            - Integrated Chassis Control and Vehicle Stability Control
+            - Evasive Collision Avoidance
+            - Smart Hitching Assist and Trailer Parking Assist
+            - Minimum Risk Maneuver
+        - title: System Design (2020 - 2023)
           contents:
-            - E-Corner Module
-        - title: Gear Design (Jul 2015 - Jul 2020)
+            - E-Corner Module system design and analysis
+        - title: Gear Design (2015 - 2020)
           contents:
-            - Electric Power Steering (C-EPS, R-EPS, DP-EPS)
-            - Steer by Wire
-            - Shift-by-Wire
-            - e-Drive
-    - title: Researcher 
-      institution: Samsung Techwin (Now, Hanwha Aerospace)
+            - Electric Power Steering, Steer-by-Wire, Shift-by-Wire, and e-Drive systems
+            - Gear-system design, durability analysis, optimization, and in-house engineering tool development
+    - title: Research Engineer
+      institution: Samsung Techwin (now Hanwha Aerospace)
       year: 2012.08 - 2015.07
       description:
-        - Integral Helical Gear Design of Turbo Compressor
-        - Core System Desgin
-    - title: Internship 
-      institution: Samsung Techwin (Now, Hanwha Aerospace)
-      year: 2012.01 - 2012.02
-      description:
-        - Dynamics Analysis of Remote Controlled Armed Vehicles
-    - title: Internship 
+        - Integral helical gear design for turbo compressors
+        - Core system design and dynamic-system analysis
+    - title: Engineering Intern
       institution: General Motors Korea
       year: 2011.07 - 2011.08
       description:
-        - Engine Map Tuning and Validation
+        - Engine map tuning and validation
     - title: Student Intern
-      institution: Graduate School of Convergence Science and Technology, Seoul National University
+      institution: Seoul National University
       year: 2010.01 - 2010.06
       description:
-        - Development of Wheelchair Robot
+        - Wheelchair robot development
+
+- title: Selected Automotive Projects
+  type: time_table
+  contents:
+    - title: Trailer Parking Assist and Minimum Risk Maneuver
+      institution: HL Mando
+      year: 2026 - Present
+      description:
+        - Technical Lead and Project Owner
+        - Leading planning and control development from algorithm architecture and simulation through real-time implementation, system integration, and vehicle-level evaluation
+    - title: Smart Hitching Assist
+      institution: HL Mando
+      year: 2025
+      description:
+        - Technical Lead and Project Owner
+        - Led end-to-end planning and control development, real-time deployment, vehicle integration, calibration, and validation
+        - Delivered a successful customer demonstration and received a Company Special Recognition Award in December 2025
+    - title: Evasive Collision Avoidance
+      institution: HL Mando
+      year: 2024
+      description:
+        - Technical Lead and Project Owner
+        - Owned the full planning and control scope, including evasive path generation, path tracking control, and vehicle stability coordination
+        - Conducted simulation, real-time execution, in-vehicle tuning, and safety-critical scenario testing
+    - title: Vehicle Stability Control
+      institution: HL Mando
+      year: 2024
+      description:
+        - Technical Lead and Project Owner
+        - Developed hierarchical integrated chassis control combining differential braking and semi-active suspension damping
+        - Validated vehicle-level performance using quantitative stability and handling metrics
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D candidate in Mechanical Engineering
+    - title: Ph.D. Candidate in Mechanical Engineering
       institution: Seoul National University, Seoul, Republic of Korea
       year: 2022.09 - Present
       description:
-        - Iteractive & Networked Robotics Laboratory(INROL) · Advisor:Dongjun Lee 
-    - title: Master of Science in Mechanical Engineering
+        - Interactive and Networked Robotics Laboratory (INRoL)
+        - Advisor — Professor Dongjun Lee
+        - Research focus — Safe and robust planning and control under model and perception uncertainty
+    - title: M.S. in Mechanical Engineering
       institution: Seoul National University, Seoul, Republic of Korea
       year: 2020.09 - 2022.06
       description:
-        - Vehicle Dynamics and Control Laboratory(VDCL) · Advisor:Kyongsu Yi
-        - Thesis:“Path Tracking Control of Four Wheel Independent Steering and Driving Vehicle Based on Adaptive Weight Optimal Control” 
-    - title: Bachelor of Science in Mechanical Engineering
+        - Vehicle Dynamics and Control Laboratory (VDCL)
+        - Advisor — Professor Kyongsu Yi
+        - "Thesis — Path Tracking Control of Four-Wheel-Independent-Steering-and-Driving Vehicle Based on Adaptive-Weight Optimal Control"
+    - title: B.S. in Mechanical Engineering
       institution: Ajou University, Suwon, Republic of Korea
       year: 2006.03 - 2012.06
-      description:
-      
+
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: Outstanding Paper Award (Oral Session)
-      institution: The Korean Society of Automotive Engineers(KSAE)
+    - title: Company Special Recognition Award
+      institution: HL Mando
+      year: 2025.12
+      description:
+        - Smart Hitching Assist development and customer demonstration
+    - title: Outstanding Paper Award — Oral Session
+      institution: The Korean Society of Automotive Engineers (KSAE)
       year: 2025.11
-      description: 
+      description:
         - "Lyapunov-Informed Model Predictive Path Integral Control for Robust Trailer Hitch Assist under Perception Uncertainty"
-    - title: 특허상 추가
-    - title: 특별포상 추가
-    - title: Excellence Prize - Global R&D Tech Congress
+      image: assets/img/KSAE_25_BeatPaperAward.png
+      image_alt: Outstanding Paper Award certificate from the Korean Society of Automotive Engineers
+      image_caption: KSAE Outstanding Paper Award — Oral Session, 2025
+    - title: Excellence Award — R&D Outstanding Paper
+      institution: HL Mando
+      year: 2024.12
+      description:
+        - "Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability"
+      image: assets/img/Mando_2024.png
+      image_alt: R&D Outstanding Paper Award certificate from HL Mando
+      image_caption: HL Mando Excellence Award — R&D Outstanding Paper, 2024
+    - title: Excellence Prize — Global R&D Tech Congress
       institution: HL Global R&D Conference
       year: 2024.12
-      description: 
+      description:
         - "Integrated Chassis Control of Differential Braking and Suspension Damping Force Based on Hierarchical Architecture"
-    - title: Outstanding Paper Award (Poster Session)
-      institution: The Korean Society of Automotive Engineers(KSAE)
+    - title: Outstanding Paper Award — Poster Session
+      institution: The Korean Society of Automotive Engineers (KSAE)
       year: 2024.11
-      description: 
+      description:
         - "Continuous Curvature Path Planning Based on Bézier Curves for Autonomous Driving in Complex Environments"
+      image: assets/img/KSAE_2024.png
+      image_alt: Outstanding Paper Award certificate from the Korean Society of Automotive Engineers
+      image_caption: KSAE Outstanding Paper Award — Poster Session, 2024
     - title: Best Dialogue Award
       institution: The 37th International Electric Vehicle Symposium & Exhibition (EVS37)
       year: 2024.03
-      description: 
+      description:
         - "Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability"
-    - title: Mando Academic Training Program (학술연수과정)
-      institution: Mando Cooperation
+      image: assets/img/EVS_2024.png
+      image_alt: Kyungtack Lee receiving the Best Dialogue Award at EVS37
+      image_caption: Best Dialogue Award at EVS37, 2024
+    - title: Mando Academic Training Program
+      institution: HL Mando
       year: 2020.09
-      description: Vehicle Dynamics and Control Lab., Seoul National University
-
+      description:
+        - Vehicle Dynamics and Control Laboratory, Seoul National University
     - title: Excellence Project
-      institution: Mando Cooperation
+      institution: HL Mando
       year: 2020.04
-      description: 
-        - "Development of High Torque Reduction Gear: Gear durability model based on SN curve and Gear temperature model"
+      description:
+        - "Development of High-Torque Reduction Gear — Gear durability model based on S-N curves and gear temperature model"
     - title: Best Excellence Project
-      institution: Mando Cooperation
+      institution: HL Mando
       year: 2018.12
-      description: 
-       - "Establishment of C-EPS gear design standard and Development of in-house gear design program"
-    - title: Grand Prize - Global R&D Tech Congress 
-      institution: Mando Cooperation
+      description:
+        - "Establishment of C-EPS gear design standards and development of an in-house gear design program"
+    - title: Grand Prize — Global R&D Tech Congress
+      institution: HL Mando
       year: 2017.12
       description:
-       -  "Development and Optimization of Worm Gear Based on Tooth Deformation Analysis in Electric Power Steering "
+        - "Development and Optimization of Worm Gear Based on Tooth Deformation Analysis in Electric Power Steering"
+      image: assets/img/Mando_2017+TechCong.png
+      image_alt: Grand Prize certificate from the Mando Global R&D Tech Congress
+      image_caption: Grand Prize — Global R&D Tech Congress, 2017
+
+- title: Selected Achievements
+  type: list
+  contents:
+    - Led and owned Smart Hitching Assist development through customer demonstration and company recognition in December 2025.
+    - Led the complete planning and control development of Evasive Collision Avoidance, covering path generation, path tracking, and vehicle stabilization.
+    - Led integrated Vehicle Stability Control development using differential braking and semi-active suspension, receiving internal and international recognition.
+    - Authored or co-authored research in vehicle motion control, autonomous driving, optimization-based control, and robust planning under uncertainty.
+    - Inventor or co-inventor on multiple automotive and mechanical-system patents.

@@ -96,6 +96,21 @@
               {% endfor %}
             </ul>
           {% endif %}
+          {% if content.image %}
+            <div class="ml-1 ml-md-4 mt-3" style="max-width: 520px">
+              <a href="{{ content.image | relative_url }}" target="_blank" rel="noopener noreferrer">
+                {% include figure.liquid
+                  loading="lazy"
+                  path=content.image
+                  alt=content.image_alt
+                  class="img-fluid rounded z-depth-1"
+                %}
+              </a>
+              {% if content.image_caption %}
+                <div class="caption">{{ content.image_caption }}</div>
+              {% endif %}
+            </div>
+          {% endif %}
           {% if content.linkitems %}
             <div class="container-links ml-1 ml-md-4">
               {% for item in content.linkitems %}
