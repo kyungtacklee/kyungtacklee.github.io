@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "CV",
-          description: "Research Interests / Work / Education / Honors and Awards",
+          description: "Professional Summary / Core Competencies / Experience / Projects / Education / Honors and Awards",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "projects.",
+          description: "Selected automotive planning, control, and real-time vehicle development projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -59,57 +59,38 @@ ninja.data = [{
           window.location.href = "/blog/2025/post_title-copy/";
         
       },
-    },{id: "news-github-pages-open-smile",
-          title: 'Github pages open! :smile:',
+    },{id: "news-received-the-best-dialogue-award-at-evs37-for-integrated-vehicle-stability-control-using-semi-active-suspension-and-differential-braking",
+          title: 'Received the Best Dialogue Award at EVS37 for integrated vehicle stability control using...',
           description: "",
-          section: "News",},{id: "news-award",
-          title: 'Award',
+          section: "News",},{id: "news-received-the-excellence-prize-at-the-hl-global-r-amp-amp-d-tech-congress-for-hierarchical-integrated-chassis-control-using-differential-braking-and-suspension-damping",
+          title: 'Received the Excellence Prize at the HL Global R&amp;amp;amp;D Tech Congress for hierarchical...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-received-the-ksae-outstanding-paper-award-oral-session-for-lyapunov-informed-model-predictive-path-integral-control-for-robust-trailer-hitch-assist-under-perception-uncertainty",
+          title: 'Received the KSAE Outstanding Paper Award (Oral Session) for “Lyapunov-Informed Model Predictive Path...',
+          description: "",
+          section: "News",},{id: "news-received-a-company-special-recognition-award-for-smart-hitching-assist-development-and-customer-demonstration",
+          title: 'Received a Company Special Recognition Award for Smart Hitching Assist development and customer...',
+          description: "",
+          section: "News",},{id: "projects-smart-hitching-assist",
+          title: 'Smart Hitching Assist',
+          description: "End-to-end planning and control development, customer demonstration, and company recognition.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-evasive-collision-avoidance",
+          title: 'Evasive Collision Avoidance',
+          description: "Full planning and control development spanning path generation, tracking, and vehicle stabilization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-vehicle-stability-control",
+          title: 'Vehicle Stability Control',
+          description: "Hierarchical integrated chassis control using differential braking and semi-active suspension.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-trailer-parking-assist-and-minimum-risk-maneuver",
+          title: 'Trailer Parking Assist and Minimum Risk Maneuver',
+          description: "Ongoing planning and control development for production-oriented, safety-critical automated driving functions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
