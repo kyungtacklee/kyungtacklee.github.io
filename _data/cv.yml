@@ -28,14 +28,16 @@
     - title: Programming
       items:
         - C for production software analysis and development
-        - C++, Python, and MATLAB
+        - MATLAB
+        - Python
     - title: Model-Based and Real-Time Development
       items:
         - MATLAB/Simulink and dSPACE MicroAutoBox II
         - Real-time model build and deployment and rapid control prototyping
     - title: NVIDIA Platforms
       items:
-        - NVIDIA Jetson AGX and Isaac Sim
+        - NVIDIA Jetson AGX
+        - Isaac Sim
     - title: Simulation and Validation
       items:
         - CarSim, CarMaker, scenario-based simulation, and recorded-data analysis
@@ -53,17 +55,17 @@
       institution: HL Mando
       year: 2015.08 - Present
       description:
-        - title: Mobility Motion Control (2023 - Present)
+        - title: Mobility Motion Control (2020 - Present)
           contents:
             - Technical lead and project owner for automotive planning and control functions
             - Integrated Chassis Control and Vehicle Stability Control
             - Evasive Collision Avoidance
             - Smart Hitching Assist and Trailer Parking Assist
             - Minimum Risk Maneuver
-        - title: System Design (2020 - 2023)
+        - title: System Design (2019 - 2020)
           contents:
             - E-Corner Module system design and analysis
-        - title: Gear Design (2015 - 2020)
+        - title: Gear Design (2015 - 2019)
           contents:
             - Electric Power Steering, Steer-by-Wire, Shift-by-Wire, and e-Drive systems
             - Gear-system design, durability analysis, optimization, and in-house engineering tool development
@@ -84,7 +86,7 @@
       description:
         - Wheelchair robot development
 
-- title: Selected Automotive Projects
+- title: Projects
   type: time_table
   contents:
     - title: Trailer Parking Assist and Minimum Risk Maneuver
@@ -107,7 +109,7 @@
         - Technical Lead and Project Owner
         - Owned the full planning and control scope, including evasive path generation, path tracking control, and vehicle stability coordination
         - Conducted simulation, real-time execution, in-vehicle tuning, and safety-critical scenario testing
-    - title: Vehicle Stability Control
+    - title: Vehicle Stability Control Assist
       institution: HL Mando
       year: 2024
       description:
@@ -120,11 +122,11 @@
   contents:
     - title: Ph.D. Candidate in Mechanical Engineering
       institution: Seoul National University, Seoul, Republic of Korea
-      year: 2022.09 - Present
+      year: 2023.03 - Present
       description:
         - Interactive and Networked Robotics Laboratory (INRoL)
         - Advisor — Professor Dongjun Lee
-        - Research focus — Safe and robust planning and control under model and perception uncertainty
+        - Research focus — Supervisory Integrated Chassis Control Using Model Predictive Path Integral Control with Legacy Controllers
     - title: M.S. in Mechanical Engineering
       institution: Seoul National University, Seoul, Republic of Korea
       year: 2020.09 - 2022.06
@@ -160,11 +162,6 @@
       image: assets/img/Mando_2024.png
       image_alt: R&D Outstanding Paper Award certificate from HL Mando
       image_caption: HL Mando Excellence Award — R&D Outstanding Paper, 2024
-    - title: Excellence Prize — Global R&D Tech Congress
-      institution: HL Global R&D Conference
-      year: 2024.12
-      description:
-        - "Integrated Chassis Control of Differential Braking and Suspension Damping Force Based on Hierarchical Architecture"
     - title: Outstanding Paper Award — Poster Session
       institution: The Korean Society of Automotive Engineers (KSAE)
       year: 2024.11
@@ -204,12 +201,3 @@
       image: assets/img/Mando_2017+TechCong.png
       image_alt: Grand Prize certificate from the Mando Global R&D Tech Congress
       image_caption: Grand Prize — Global R&D Tech Congress, 2017
-
-- title: Selected Achievements
-  type: list
-  contents:
-    - Led and owned Smart Hitching Assist development through customer demonstration and company recognition in December 2025.
-    - Led the complete planning and control development of Evasive Collision Avoidance, covering path generation, path tracking, and vehicle stabilization.
-    - Led integrated Vehicle Stability Control development using differential braking and semi-active suspension, receiving internal and international recognition.
-    - Authored or co-authored research in vehicle motion control, autonomous driving, optimization-based control, and robust planning under uncertainty.
-    - Inventor or co-inventor on multiple automotive and mechanical-system patents.
