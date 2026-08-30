@@ -2,7 +2,7 @@
 layout: about
 title: Kyungtack Lee
 permalink: /
-subtitle: Vehicle Motion Control | Motion Planning
+subtitle: Vehicle Dynamics and Control | Motion Planning and Control
 
 profile:
   align: right
@@ -24,6 +24,6 @@ latest_posts:
   limit: 3
 ---
 
-My overarching research aims to design systems, control, and decision-making algorithms to develop safe, robust, and efficient dynamical systems. In particular, my research is based on control theory, optimization, and mathematical analysis, with a strong interest in understanding how rigorous theoretical tools can be translated into reliable real-world autonomous systems. I am especially interested in safety-critical control, robust and stochastic optimization, learning-based control, and the integration of perception and decision-making under uncertainty. I focus on bridging the gap between theory and practice by developing algorithms that are not only mathematically sound but also implementable and verifiable in real-time systems.
+My research focuses on control and motion planning for safe, robust, and efficient dynamical systems. Based on control theory, optimization, and mathematical analysis, I am particularly interested in vehicle dynamics and integrated chassis control, optimization-based motion planning and control under uncertainty, and vehicle state estimation. My goal is to develop methods that are theoretically grounded, implementable, and verifiable in real-time systems.
 
-This research direction is grounded in more than ten years of experience in production automotive engineering. At HL Mando, I serve as the technical lead and project owner for vehicle control and motion planning functions, with end-to-end responsibility spanning function architecture, algorithm development, modeling and simulation, real-time implementation, vehicle integration, calibration, and validation. My recent work includes vehicle control through Vehicle Stability Control Assist using differential brake, semi-active suspension and rear wheel steering; low-speed automated driving through Smart Hitching Assist and Trailer Parking Assist under perception uncertainty; and autonomous-driving control through Evasive Collision Avoidance and Minimum Risk Maneuver.
+This work builds on more than ten years of experience in automotive engineering. At HL Mando, I serve as a technical lead and project owner for vehicle chassis control and motion planning functions, covering algorithm architecture, simulation, real-time implementation, vehicle integration, tuning, and validation. My recent work includes integrated chassis control, motion planning and control for automated driving, and vehicle state estimation.
