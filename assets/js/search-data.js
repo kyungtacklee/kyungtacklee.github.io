@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "CV",
-          description: "Professional Summary / Core Competencies / Experience / Projects / Education / Honors and Awards",
+          description: "Summary / Technical Focus / Experience / Education / Honors and Awards",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
