@@ -1,22 +1,19 @@
 ---
 layout: page
-title: Vehicle Stability Control
-description: Hierarchical integrated chassis control using differential braking and semi-active suspension.
+title: Evasive Collision Avoidance
+description: Integrated path generation, tracking control, and vehicle stabilization for evasive maneuvers.
 img:
-importance: 4
-category: Featured Automotive Projects
+importance: 3
+category: "Vehicle Motion & Automated Driving"
 ---
 
-## Vehicle Stability Control — 2024
+## Evasive Collision Avoidance
 
-**Role:** Technical Lead and Project Owner
-
+**Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
 
-Led the development of an integrated vehicle stability control system combining differential braking and semi-active suspension damping within a hierarchical control architecture.
+This project joined evasive path generation, path tracking, and vehicle-stability control in a single development flow. The main challenge was not only finding a collision-avoidance path, but also producing commands that remained compatible with vehicle and actuator limits during a rapid maneuver.
 
-Owned the project from vehicle dynamics analysis and control concept design through model-based development, real-time implementation, system integration, and vehicle-level validation using quantitative stability and handling metrics.
+My work covered the planning-and-control architecture, algorithm development, model-based evaluation, and real-time integration on dSPACE MicroAutoBox II. The controller was tuned and assessed using simulation and vehicle-test scenarios, with path-tracking behavior and vehicle motion reviewed together rather than as separate functions.
 
-The work received the Excellence Prize at the HL Global R&D Tech Congress and the Best Dialogue Award at EVS37.
-
-**Key areas:** Vehicle dynamics, integrated chassis control, differential braking, suspension control, hierarchical control
+**Key areas:** Evasive planning, path tracking, vehicle stabilization, real-time integration, scenario-based evaluation

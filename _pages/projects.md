@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Selected automotive planning, control, and real-time vehicle development projects.
+description: Selected work in vehicle motion, control research, and mechanical system design.
 nav: true
 nav_order: 3
-display_categories: [Featured Automotive Projects]
+display_categories: ["Vehicle Motion & Automated Driving", "Control & Estimation Research", "Mechanical System Design"]
 horizontal: true
 ---
 

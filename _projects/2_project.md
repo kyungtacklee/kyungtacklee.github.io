@@ -1,20 +1,19 @@
 ---
 layout: page
-title: Evasive Collision Avoidance
-description: Full planning and control development spanning path generation, tracking, and vehicle stabilization.
+title: Vehicle Stability & Integrated Chassis Control
+description: Coordinated differential braking and semi-active suspension control for lateral and roll stability.
 img:
-importance: 3
-category: Featured Automotive Projects
+importance: 2
+category: "Vehicle Motion & Automated Driving"
 ---
 
-## Evasive Collision Avoidance — 2024
+## Vehicle Stability & Integrated Chassis Control
 
-**Role:** Technical Lead and Project Owner
-
+**Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
 
-Led and owned the full planning and control development of an Evasive Collision Avoidance function, including evasive path generation, path tracking control, and vehicle stability coordination.
+I developed a hierarchical chassis-control architecture that coordinates differential braking and semi-active suspension damping. The work connected vehicle-state estimation, mode supervision, yaw and roll control, and wheel-level control allocation in one system rather than treating each actuator independently.
 
-Developed and integrated the algorithms into a unified planning-and-control framework, validated them through simulation and real-time execution on dSPACE MicroAutoBox II, and performed in-vehicle tuning and testing under safety-critical driving scenarios.
+The controller was studied in MATLAB/Simulink and CarSim, followed by real-time implementation and vehicle evaluation. In the published comparison, the proposed damping distribution reduced the maximum roll angle by 17.4% and the maximum side-slip angle by 8.7% against the respective conventional methods. The work received the Best Dialogue Award at EVS37 and was later published in the *World Electric Vehicle Journal*.
 
-**Key areas:** Path generation, path tracking, vehicle stabilization, integrated chassis control, real-time testing
+**Key areas:** Vehicle dynamics, integrated chassis control, differential braking, semi-active suspension, control allocation

@@ -1,20 +1,19 @@
 ---
 layout: page
 title: Smart Hitching Assist
-description: End-to-end planning and control development, customer demonstration, and company recognition.
+description: Planning, control, and vehicle integration for automated trailer hitching under perception uncertainty.
 img:
-importance: 2
-category: Featured Automotive Projects
+importance: 1
+category: "Vehicle Motion & Automated Driving"
 ---
 
-## Smart Hitching Assist — 2025
+## Smart Hitching Assist
 
-**Role:** Technical Lead and Project Owner
-
+**Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
 
-Led and owned the end-to-end development of a Smart Hitching Assist function, including function architecture design, planning and control algorithm development, real-time implementation, vehicle integration, calibration, and validation.
+This project focused on the last few meters of trailer hitching, where a vehicle must reverse toward a coupler using noisy camera-based position and pose estimates. My work covered the control architecture, motion-control algorithms, real-time implementation, vehicle integration, calibration, and test planning.
 
-The control logic was developed in MATLAB/Simulink, deployed to a dSPACE MicroAutoBox II real-time target, and evaluated through scenario-based vehicle testing. The project was successfully demonstrated to a customer and received a Company Special Recognition Award in December 2025.
+The controller was developed in MATLAB/Simulink and deployed to a dSPACE MicroAutoBox II. Development progressed from RTK-GPS-based testing to a camera-based setup, with perception noise, bias, delay, and dropped measurements represented in simulation before vehicle evaluation. The function was demonstrated to a customer in 2025 and received a company special recognition award.
 
-**Key areas:** Motion planning, path tracking control, real-time prototyping, vehicle integration, customer demonstration
+**Key areas:** Trailer dynamics, motion control, perception uncertainty, rapid control prototyping, vehicle testing

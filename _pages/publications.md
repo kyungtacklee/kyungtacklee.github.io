@@ -2,12 +2,15 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Journal articles / Conference proceedings / Patents
+description: Journal articles and conference proceedings
 nav: true
 nav_order: 2
+publication_section: papers
 ---
 
 <!-- _pages/publications.md -->
+
+{% include publications_switcher.liquid %}
 
 <!-- Bibsearch Feature -->
 

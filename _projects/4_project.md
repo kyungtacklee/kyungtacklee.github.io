@@ -1,20 +1,19 @@
 ---
 layout: page
-title: Trailer Parking Assist and Minimum Risk Maneuver
-description: Ongoing planning and control development for production-oriented, safety-critical automated driving functions.
+title: Trailer Parking Assist
+description: Multi-stage planning and control for parking a vehicle-trailer combination.
 img:
-importance: 1
-category: Featured Automotive Projects
+importance: 4
+category: "Vehicle Motion & Automated Driving"
 ---
 
-## Trailer Parking Assist (TPA) and Minimum Risk Maneuver (MRM) Development — 2026–Present
+## Trailer Parking Assist
 
-**Role:** Technical Lead and Project Owner
-
+**Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
 
-Leading and owning the ongoing development of Trailer Parking Assist (TPA) and Minimum Risk Maneuver (MRM) planning and control functions, including algorithm architecture, simulation, real-time implementation, system integration, and vehicle-level evaluation.
+Trailer parking requires coordinated forward and reverse motion while keeping hitch angle, steering limits, gear changes, and jackknife risk under control. I have been developing the planning-and-control structure for parallel and perpendicular parking scenarios, including the interfaces between path planning, lateral and longitudinal control, sensors, and the driver-facing operating sequence.
 
-The projects extend my work in vehicle motion planning and control toward production-oriented, safety-critical automated driving functions, focusing on robust maneuver generation and safe fallback behavior under system limits or fault conditions.
+The engineering work uses MATLAB/Simulink models and vehicle-trailer simulation to study multi-stage maneuvers and controller transitions. Public details are intentionally limited to the overall architecture and methods while the project remains in development.
 
-**Key areas:** Motion planning, vehicle control, safety-critical functions, real-time implementation, in-vehicle validation
+**Key areas:** Trailer parking, multi-stage planning, hitch-angle control, system integration, automated-driving functions

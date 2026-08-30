@@ -1,0 +1,14 @@
+<div class="d-flex flex-wrap mb-4" role="navigation" aria-label="Publication sections">
+  <a
+    class="btn btn-sm mr-2 mb-2 {% if page.publication_section == 'papers' %}btn-primary{% else %}btn-outline-primary{% endif %}"
+    href="{{ '/publications/' | relative_url }}"
+  >
+    Journal Articles &amp; Conference Proceedings
+  </a>
+  <a
+    class="btn btn-sm mb-2 {% if page.publication_section == 'patents' %}btn-primary{% else %}btn-outline-primary{% endif %}"
+    href="{{ '/publications/patents/' | relative_url }}"
+  >
+    Patents
+  </a>
+</div>
