@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Journal articles / Conference proceedings / Patents",
+          description: "Journal articles and conference proceedings",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Selected automotive planning, control, and real-time vehicle development projects.",
+          description: "Selected work in vehicle motion, control research, and mechanical system design.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -71,26 +71,76 @@ ninja.data = [{
           section: "News",},{id: "news-received-a-company-special-recognition-award-for-smart-hitching-assist-development-and-customer-demonstration",
           title: 'Received a Company Special Recognition Award for Smart Hitching Assist development and customer...',
           description: "",
-          section: "News",},{id: "projects-smart-hitching-assist",
+          section: "News",},{id: "projects-continuous-curvature-bézier-path-planning",
+          title: 'Continuous-Curvature Bézier Path Planning',
+          description: "Smooth, vehicle-feasible path generation for constrained and complex environments.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-vehicle-side-slip-angle-estimation",
+          title: 'Vehicle Side-Slip Angle Estimation',
+          description: "Combined-model estimation using a sliding-mode observer and Kalman filtering.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-receding-horizon-gps-estimator",
+          title: 'Receding-Horizon GPS Estimator',
+          description: "Horizon-based vehicle-state estimation for noisy, delayed, and intermittent positioning measurements.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-gear-system-design-amp-optimization",
+          title: 'Gear System Design &amp;amp; Optimization',
+          description: "Gear design, durability analysis, and engineering-tool development for automotive actuation systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
+            },},{id: "projects-plastic-worm-gear-design-amp-temperature-model",
+          title: 'Plastic Worm Gear Design &amp;amp; Temperature Model',
+          description: "Deformation-aware tooth-profile optimization and temperature-dependent durability modeling for reduction gears.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project/";
+            },},{id: "projects-smart-hitching-assist",
           title: 'Smart Hitching Assist',
-          description: "End-to-end planning and control development, customer demonstration, and company recognition.",
+          description: "Planning, control, and vehicle integration for automated trailer hitching under perception uncertainty.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-evasive-collision-avoidance",
-          title: 'Evasive Collision Avoidance',
-          description: "Full planning and control development spanning path generation, tracking, and vehicle stabilization.",
+            },},{id: "projects-vehicle-stability-amp-integrated-chassis-control",
+          title: 'Vehicle Stability &amp;amp; Integrated Chassis Control',
+          description: "Coordinated differential braking and semi-active suspension control for lateral and roll stability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-vehicle-stability-control",
-          title: 'Vehicle Stability Control',
-          description: "Hierarchical integrated chassis control using differential braking and semi-active suspension.",
+            },},{id: "projects-evasive-collision-avoidance",
+          title: 'Evasive Collision Avoidance',
+          description: "Integrated path generation, tracking control, and vehicle stabilization for evasive maneuvers.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-trailer-parking-assist-and-minimum-risk-maneuver",
-          title: 'Trailer Parking Assist and Minimum Risk Maneuver',
-          description: "Ongoing planning and control development for production-oriented, safety-critical automated driving functions.",
+            },},{id: "projects-trailer-parking-assist",
+          title: 'Trailer Parking Assist',
+          description: "Multi-stage planning and control for parking a vehicle-trailer combination.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-minimum-risk-maneuver",
+          title: 'Minimum Risk Maneuver',
+          description: "Trajectory, speed, and chassis-control development for automated-driving fallback scenarios.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-rear-wheel-steering-control-amp-dynamic-planning",
+          title: 'Rear-Wheel Steering Control &amp;amp; Dynamic Planning',
+          description: "Speed- and state-aware rear-wheel steering for maneuverability and lateral stability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-e-corner-amp-wheel-module-development",
+          title: 'E-Corner &amp;amp; Wheel Module Development',
+          description: "System design and interface development for integrated electric corner modules.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-lyapunov-informed-mppi",
+          title: 'Lyapunov-Informed MPPI',
+          description: "Sampling-based control for trailer hitching with Lyapunov-guided rollout screening.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "projects-4wisd-adaptive-weight-mpc",
+          title: '4WISD Adaptive-Weight MPC',
+          description: "Model predictive path tracking with state-dependent weights for a four-wheel independent steering and driving vehicle.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
