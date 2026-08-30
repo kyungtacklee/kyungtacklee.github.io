@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sampled Receding-Horizon Vehicle State Estimation
+title: Receding-Horizon GPS Estimator
 description: Horizon-based vehicle-state estimation for noisy, delayed, and intermittent positioning measurements.
 img:
 importance: 7
@@ -11,7 +11,7 @@ images:
 presentations: []
 ---
 
-## Sampled Receding-Horizon Vehicle State Estimation
+## Receding-Horizon GPS Estimator
 
 This research prototype explored receding-horizon estimation for vehicle position and motion states when GPS measurements are noisy, delayed, or temporarily unavailable. The estimator uses a finite window of measurements and vehicle-model information rather than updating from only the latest sample.
 
