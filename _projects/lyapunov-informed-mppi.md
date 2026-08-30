@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lyapunov-Informed MPPI
+title: Lyapunov MPPI for Hitch Assist
 description: Sampling-based control for trailer hitching with Lyapunov-guided rollout screening.
 img:
 importance: 3
@@ -11,7 +11,7 @@ images:
 presentations: []
 ---
 
-## Lyapunov-Informed MPPI for Trailer Hitch Assist
+## Lyapunov MPPI for Hitch Assist
 
 This research investigates how Lyapunov information can be used inside Model Predictive Path Integral control for reverse trailer hitching. The controller evaluates target position and pose directly, without requiring a fixed reference path, and uses a Lyapunov decrease test to screen sampled rollouts before the MPPI update.
 
