@@ -1,0 +1,20 @@
+{% if page.gallery and page.gallery != empty %}
+  <section class="project-gallery mt-5">
+    <h2>Project Gallery</h2>
+
+    <div class="row mt-4">
+      {% for image in page.gallery %}
+        <div class="{% if image.wide %}col-12{% else %}col-md-6{% endif %} mb-4 project-gallery-item">
+          {% include figure.liquid
+            path=image.path
+            alt=image.alt
+            caption=image.caption
+            class="img-fluid rounded z-depth-1"
+            loading="lazy"
+            zoomable=true
+          %}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

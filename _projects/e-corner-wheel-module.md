@@ -2,13 +2,18 @@
 layout: page
 title: E-Corner & Wheel Module Development
 description: System design and interface development for integrated electric corner modules.
-img:
+img: assets/img/projects/e-corner-wheel-module/e-corner-module.png
 importance: 1
 category: "Mechanical System Design"
 project_stage: "Selected Prior Work"
 images:
   slider: true
 presentations: []
+gallery:
+  - path: assets/img/projects/e-corner-wheel-module/e-corner-module.png
+    alt: E-Corner module suspension and wheel assembly
+    caption: E-Corner module hardware and wheel assembly.
+    wide: true
 ---
 
 ## E-Corner & Wheel Module Development
@@ -22,5 +27,7 @@ I worked on the system design of an E-Corner module that brings propulsion, stee
 This project connects my earlier mechanical-system background with later work in 4WISD vehicle control. Related wheel-module inventions progressed to registered Korean patents, with additional electric-drive and suspension inventions documented in the patent portfolio.
 
 **Key areas:** E-Corner, wheel modules, system architecture, interface design, 4WISD
+
+{% include project_gallery.liquid %}
 
 {% include project_slide_decks.liquid %}
