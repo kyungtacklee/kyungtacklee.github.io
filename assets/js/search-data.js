@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Ongoing projects and previous work in vehicle motion planning, control, and mechanical system design.",
+          description: "Selected prior work and ongoing projects in vehicle systems, motion planning, and control.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -71,76 +71,41 @@ ninja.data = [{
           section: "News",},{id: "news-received-a-company-special-recognition-award-for-smart-hitching-assist-development-and-customer-demonstration",
           title: 'Received a Company Special Recognition Award for Smart Hitching Assist development and customer...',
           description: "",
-          section: "News",},{id: "projects-4wisd-adaptive-weight-mpc",
-          title: '4WISD Adaptive-Weight MPC',
-          description: "Model predictive path tracking with state-dependent weights for a four-wheel independent steering and driving vehicle.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4wisd-adaptive-mpc/";
-            },},{id: "projects-continuous-curvature-bézier-path-planning",
-          title: 'Continuous-Curvature Bézier Path Planning',
-          description: "Smooth, vehicle-feasible path generation for constrained and complex environments.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/bezier-path-planning/";
-            },},{id: "projects-e-corner-amp-wheel-module-development",
-          title: 'E-Corner &amp;amp; Wheel Module Development',
+          section: "News",},{id: "projects-e-corner-module-system-design",
+          title: 'E-Corner Module System Design',
           description: "System design and interface development for integrated electric corner modules.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/e-corner-wheel-module/";
+              window.location.href = "/projects/e-corner-module-system-design/";
             },},{id: "projects-evasive-collision-avoidance",
           title: 'Evasive Collision Avoidance',
           description: "Integrated path generation, tracking control, and vehicle stabilization for evasive maneuvers.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/evasive-collision-avoidance/";
-            },},{id: "projects-gear-system-design-amp-optimization",
-          title: 'Gear System Design &amp;amp; Optimization',
+            },},{id: "projects-gear-system-design",
+          title: 'Gear System Design',
           description: "Gear design, durability analysis, and engineering-tool development for automotive actuation systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gear-system-design/";
-            },},{id: "projects-lyapunov-informed-mppi",
-          title: 'Lyapunov-Informed MPPI',
-          description: "Sampling-based control for trailer hitching with Lyapunov-guided rollout screening.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/lyapunov-informed-mppi/";
-            },},{id: "projects-minimum-risk-maneuver",
-          title: 'Minimum Risk Maneuver',
-          description: "Trajectory, speed, and chassis-control development for automated-driving fallback scenarios.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/minimum-risk-maneuver/";
-            },},{id: "projects-plastic-worm-gear-design-amp-temperature-model",
-          title: 'Plastic Worm Gear Design &amp;amp; Temperature Model',
-          description: "Deformation-aware tooth-profile optimization and temperature-dependent durability modeling for reduction gears.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/plastic-worm-gear/";
-            },},{id: "projects-rear-wheel-steering-control-amp-dynamic-planning",
-          title: 'Rear-Wheel Steering Control &amp;amp; Dynamic Planning',
-          description: "Speed- and state-aware rear-wheel steering for maneuverability and lateral stability.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/rear-wheel-steering/";
-            },},{id: "projects-receding-horizon-gps-estimator",
-          title: 'Receding-Horizon GPS Estimator',
-          description: "Horizon-based vehicle-state estimation for noisy, delayed, and intermittent positioning measurements.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/receding-horizon-estimator/";
-            },},{id: "projects-vehicle-side-slip-angle-estimation",
-          title: 'Vehicle Side-Slip Angle Estimation',
-          description: "Combined-model estimation using a sliding-mode observer and Kalman filtering.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/side-slip-estimation/";
-            },},{id: "projects-smart-hitching-assist",
-          title: 'Smart Hitching Assist',
+            },},{id: "projects-smart-hitch-assist",
+          title: 'Smart Hitch Assist',
           description: "Planning, control, and vehicle integration for automated trailer hitching under perception uncertainty.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/smart-hitching-assist/";
+              window.location.href = "/projects/smart-hitch-assist/";
+            },},{id: "projects-supervisory-vehicle-control",
+          title: 'Supervisory Vehicle Control',
+          description: "Supervisory coordination of minimum-risk maneuvers and integrated chassis-control functions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/supervisory-vehicle-control/";
             },},{id: "projects-trailer-parking-assist",
           title: 'Trailer Parking Assist',
           description: "Multi-stage planning and control for parking a vehicle-trailer combination.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/trailer-parking-assist/";
-            },},{id: "projects-vehicle-stability-amp-integrated-chassis-control",
-          title: 'Vehicle Stability &amp;amp; Integrated Chassis Control',
-          description: "Coordinated differential braking and semi-active suspension control for lateral and roll stability.",
+            },},{id: "projects-vehicle-stability-control-assist",
+          title: 'Vehicle Stability Control Assist',
+          description: "Vehicle-stability support through integrated chassis control and vehicle-state estimation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/vehicle-stability-control/";
+              window.location.href = "/projects/vehicle-stability-control-assist/";
             },},{
         id: 'social-email',
         title: 'email',
