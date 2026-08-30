@@ -3,8 +3,9 @@ layout: page
 title: Gear System Design & Optimization
 description: Gear design, durability analysis, and engineering-tool development for automotive actuation systems.
 img:
-importance: 1
+importance: 2
 category: "Mechanical System Design"
+project_stage: "Previous Work"
 ---
 
 ## Gear System Design & Optimization

@@ -3,8 +3,9 @@ layout: page
 title: E-Corner & Wheel Module Development
 description: System design and interface development for integrated electric corner modules.
 img:
-importance: 7
-category: "Vehicle Motion & Automated Driving"
+importance: 1
+category: "Mechanical System Design"
+project_stage: "Previous Work"
 ---
 
 ## E-Corner & Wheel Module Development

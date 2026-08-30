@@ -4,7 +4,8 @@ title: Smart Hitching Assist
 description: Planning, control, and vehicle integration for automated trailer hitching under perception uncertainty.
 img:
 importance: 1
-category: "Vehicle Motion & Automated Driving"
+category: "Vehicle Motion Planning & Control"
+project_stage: "Previous Work"
 ---
 
 ## Smart Hitching Assist

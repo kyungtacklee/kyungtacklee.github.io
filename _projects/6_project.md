@@ -3,8 +3,9 @@ layout: page
 title: Rear-Wheel Steering Control & Dynamic Planning
 description: Speed- and state-aware rear-wheel steering for maneuverability and lateral stability.
 img:
-importance: 6
-category: "Vehicle Motion & Automated Driving"
+importance: 4
+category: "Vehicle Motion Planning & Control"
+project_stage: "Ongoing Projects"
 ---
 
 ## Rear-Wheel Steering Control & Dynamic Planning

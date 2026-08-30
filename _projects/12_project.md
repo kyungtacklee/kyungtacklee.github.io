@@ -3,8 +3,9 @@ layout: page
 title: Receding-Horizon GPS Estimator
 description: Horizon-based vehicle-state estimation for noisy, delayed, and intermittent positioning measurements.
 img:
-importance: 5
-category: "Control & Estimation Research"
+importance: 7
+category: "Vehicle Motion Planning & Control"
+project_stage: "Previous Work"
 ---
 
 ## Receding-Horizon GPS Estimator

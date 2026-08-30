@@ -3,8 +3,9 @@ layout: page
 title: Trailer Parking Assist
 description: Multi-stage planning and control for parking a vehicle-trailer combination.
 img:
-importance: 4
-category: "Vehicle Motion & Automated Driving"
+importance: 1
+category: "Vehicle Motion Planning & Control"
+project_stage: "Ongoing Projects"
 ---
 
 ## Trailer Parking Assist

@@ -3,8 +3,9 @@ layout: page
 title: Plastic Worm Gear Design & Temperature Model
 description: Deformation-aware tooth-profile optimization and temperature-dependent durability modeling for reduction gears.
 img:
-importance: 2
+importance: 3
 category: "Mechanical System Design"
+project_stage: "Previous Work"
 ---
 
 ## Plastic Worm Gear Design & Temperature Model

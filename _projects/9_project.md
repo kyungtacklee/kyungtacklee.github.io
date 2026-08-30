@@ -3,8 +3,9 @@ layout: page
 title: 4WISD Adaptive-Weight MPC
 description: Model predictive path tracking with state-dependent weights for a four-wheel independent steering and driving vehicle.
 img:
-importance: 2
-category: "Control & Estimation Research"
+importance: 4
+category: "Vehicle Motion Planning & Control"
+project_stage: "Previous Work"
 ---
 
 ## 4WISD Adaptive-Weight MPC
