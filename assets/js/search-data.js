@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Selected work in vehicle motion, control research, and mechanical system design.",
+          description: "Ongoing projects and previous work in vehicle motion planning, control, and mechanical system design.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
