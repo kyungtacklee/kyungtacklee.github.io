@@ -2,50 +2,43 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Ongoing projects and previous work in vehicle motion planning, control, and mechanical system design.
+description: Selected projects in vehicle motion planning, control, and state estimation.
 nav: true
 nav_order: 3
-display_stages: ["Selected Prior Work", "Ongoing Projects"]
-display_categories: ["Vehicle Motion Planning & Control", "Mechanical System Design"]
-horizontal: true
+display_projects:
+  - url: /projects/vehicle-stability-control/
+  - url: /projects/side-slip-estimation/
+    child: true
+  - url: /projects/smart-hitching-assist/
+  - url: /projects/bezier-path-planning/
+    child: true
+  - url: /projects/lyapunov-informed-mppi/
+    child: true
+  - url: /projects/evasive-collision-avoidance/
+  - url: /projects/receding-horizon-estimator/
 _styles: |
-  .projects h3.project-subcategory {
-    color: var(--global-text-color);
-    font-size: 1.35rem;
-    font-weight: 500;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+  .projects .project-card-child {
+    padding-left: 3rem;
+  }
+
+  @media (max-width: 575.98px) {
+    .projects .project-card-child {
+      padding-left: 1.5rem;
+    }
   }
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
-{% for stage in page.display_stages %}
-  {% assign stage_projects = site.projects | where: "project_stage", stage %}
-  {% if stage_projects.size > 0 %}
-    <h2 class="category">{{ stage }}</h2>
-    {% for category in page.display_categories %}
-      {% assign categorized_projects = stage_projects | where: "category", category %}
-      {% if categorized_projects.size > 0 %}
-        <h3 id="{{ stage | slugify }}-{{ category | slugify }}" class="project-subcategory">{{ category }}</h3>
-        {% assign sorted_projects = categorized_projects | sort: "importance" %}
-        {% if page.horizontal %}
-          <div class="container">
-            <div class="row row-cols-1 row-cols-md-2">
-              {% for project in sorted_projects %}
-                {% include projects_horizontal.liquid %}
-              {% endfor %}
-            </div>
-          </div>
-        {% else %}
-          <div class="row row-cols-1 row-cols-md-3">
-            {% for project in sorted_projects %}
-              {% include projects.liquid %}
-            {% endfor %}
-          </div>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+<div class="container">
+  <div class="row row-cols-1">
+{% for display_project in page.display_projects %}
+  {% assign project = site.projects | where: "url", display_project.url | first %}
+  {% if project %}
+    {% assign project_child = display_project.child | default: false %}
+    {% include projects_horizontal.liquid %}
   {% endif %}
 {% endfor %}
+  </div>
+</div>
 </div>

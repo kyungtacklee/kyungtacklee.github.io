@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vehicle Stability & Integrated Chassis Control
+title: Vehicle Integrated Chassis Control
 description: Coordinated differential braking and semi-active suspension control for lateral and roll stability.
 img:
 importance: 2
@@ -15,7 +15,7 @@ gallery:
     caption: Integrated chassis-control poster presented at EVS37.
 ---
 
-## Vehicle Stability & Integrated Chassis Control
+## Vehicle Integrated Chassis Control
 
 **Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
