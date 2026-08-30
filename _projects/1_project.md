@@ -5,7 +5,7 @@ description: Planning, control, and vehicle integration for automated trailer hi
 img:
 importance: 1
 category: "Vehicle Motion Planning & Control"
-project_stage: "Previous Work"
+project_stage: "Selected Prior Work"
 ---
 
 ## Smart Hitching Assist

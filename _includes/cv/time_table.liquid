@@ -97,7 +97,7 @@
             </ul>
           {% endif %}
           {% if content.image %}
-            <div class="ml-1 ml-md-4 mt-3" style="max-width: 520px">
+            <div class="ml-1 ml-md-4 mt-3" style="max-width: {{ content.image_max_width | default: '520px' }}">
               <a href="{{ content.image | relative_url }}" target="_blank" rel="noopener noreferrer">
                 {% include figure.liquid
                   loading="lazy"

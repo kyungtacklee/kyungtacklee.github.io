@@ -5,7 +5,7 @@ description: Model predictive path tracking with state-dependent weights for a f
 img:
 importance: 4
 category: "Vehicle Motion Planning & Control"
-project_stage: "Previous Work"
+project_stage: "Selected Prior Work"
 ---
 
 ## 4WISD Adaptive-Weight MPC

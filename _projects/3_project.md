@@ -5,7 +5,7 @@ description: Integrated path generation, tracking control, and vehicle stabiliza
 img:
 importance: 3
 category: "Vehicle Motion Planning & Control"
-project_stage: "Previous Work"
+project_stage: "Selected Prior Work"
 ---
 
 ## Evasive Collision Avoidance

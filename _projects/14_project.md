@@ -5,7 +5,7 @@ description: Deformation-aware tooth-profile optimization and temperature-depend
 img:
 importance: 3
 category: "Mechanical System Design"
-project_stage: "Previous Work"
+project_stage: "Selected Prior Work"
 ---
 
 ## Plastic Worm Gear Design & Temperature Model

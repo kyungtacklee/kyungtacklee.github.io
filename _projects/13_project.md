@@ -5,7 +5,7 @@ description: Gear design, durability analysis, and engineering-tool development 
 img:
 importance: 2
 category: "Mechanical System Design"
-project_stage: "Previous Work"
+project_stage: "Selected Prior Work"
 ---
 
 ## Gear System Design & Optimization
