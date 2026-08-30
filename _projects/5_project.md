@@ -3,8 +3,9 @@ layout: page
 title: Minimum Risk Maneuver
 description: Trajectory, speed, and chassis-control development for automated-driving fallback scenarios.
 img:
-importance: 5
-category: "Vehicle Motion & Automated Driving"
+importance: 2
+category: "Vehicle Motion Planning & Control"
+project_stage: "Ongoing Projects"
 ---
 
 ## Minimum Risk Maneuver

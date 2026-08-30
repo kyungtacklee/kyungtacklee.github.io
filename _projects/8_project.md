@@ -3,8 +3,9 @@ layout: page
 title: Lyapunov-Informed MPPI
 description: Sampling-based control for trailer hitching with Lyapunov-guided rollout screening.
 img:
-importance: 1
-category: "Control & Estimation Research"
+importance: 3
+category: "Vehicle Motion Planning & Control"
+project_stage: "Ongoing Projects"
 ---
 
 ## Lyapunov-Informed MPPI for Trailer Hitch Assist

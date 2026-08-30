@@ -3,8 +3,9 @@ layout: page
 title: Vehicle Side-Slip Angle Estimation
 description: Combined-model estimation using a sliding-mode observer and Kalman filtering.
 img:
-importance: 4
-category: "Control & Estimation Research"
+importance: 6
+category: "Vehicle Motion Planning & Control"
+project_stage: "Previous Work"
 ---
 
 ## Vehicle Side-Slip Angle Estimation

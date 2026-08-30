@@ -4,7 +4,8 @@ title: Vehicle Stability & Integrated Chassis Control
 description: Coordinated differential braking and semi-active suspension control for lateral and roll stability.
 img:
 importance: 2
-category: "Vehicle Motion & Automated Driving"
+category: "Vehicle Motion Planning & Control"
+project_stage: "Previous Work"
 ---
 
 ## Vehicle Stability & Integrated Chassis Control

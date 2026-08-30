@@ -3,8 +3,9 @@ layout: page
 title: Continuous-Curvature Bézier Path Planning
 description: Smooth, vehicle-feasible path generation for constrained and complex environments.
 img:
-importance: 3
-category: "Control & Estimation Research"
+importance: 5
+category: "Vehicle Motion Planning & Control"
+project_stage: "Previous Work"
 ---
 
 ## Continuous-Curvature Bézier Path Planning
