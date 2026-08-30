@@ -1,0 +1,16 @@
+---
+layout: page
+title: Continuous-Curvature Bézier Path Planning
+description: Smooth, vehicle-feasible path generation for constrained and complex environments.
+img:
+importance: 3
+category: "Control & Estimation Research"
+---
+
+## Continuous-Curvature Bézier Path Planning
+
+This project addressed a practical gap between finding a geometric route and generating a path that a vehicle can follow smoothly. I developed Bézier-based path construction methods that account for the start and goal poses, steering continuity, curvature limits, and the vehicle's minimum turning radius.
+
+The work compared and connected Bézier curves with common planning primitives such as Dubins and Reeds–Shepp paths, then evaluated path length, curvature continuity, and feasibility in constrained environments. The study received an Outstanding Paper Award in the poster session at the 2024 KSAE Annual Conference.
+
+**Key areas:** Path planning, Bézier curves, curvature continuity, vehicle geometry, constrained maneuvers
