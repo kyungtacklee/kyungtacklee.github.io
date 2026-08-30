@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Ongoing projects and previous work in vehicle motion planning, control, and mechanical system design.",
+          description: "Selected projects in vehicle motion planning, control, and state estimation.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -71,12 +71,7 @@ ninja.data = [{
           section: "News",},{id: "news-received-a-company-special-recognition-award-for-smart-hitching-assist-development-and-customer-demonstration",
           title: 'Received a Company Special Recognition Award for Smart Hitching Assist development and customer...',
           description: "",
-          section: "News",},{id: "projects-4wisd-adaptive-weight-mpc",
-          title: '4WISD Adaptive-Weight MPC',
-          description: "Model predictive path tracking with state-dependent weights for a four-wheel independent steering and driving vehicle.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4wisd-adaptive-mpc/";
-            },},{id: "projects-continuous-curvature-bézier-path-planning",
+          section: "News",},{id: "projects-continuous-curvature-bézier-path-planning",
           title: 'Continuous-Curvature Bézier Path Planning',
           description: "Smooth, vehicle-feasible path generation for constrained and complex environments.",
           section: "Projects",handler: () => {
@@ -96,8 +91,8 @@ ninja.data = [{
           description: "Gear design, durability analysis, and engineering-tool development for automotive actuation systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gear-system-design/";
-            },},{id: "projects-lyapunov-informed-mppi",
-          title: 'Lyapunov-Informed MPPI',
+            },},{id: "projects-lyapunov-mppi-for-hitch-assist",
+          title: 'Lyapunov MPPI for Hitch Assist',
           description: "Sampling-based control for trailer hitching with Lyapunov-guided rollout screening.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lyapunov-informed-mppi/";
@@ -116,8 +111,8 @@ ninja.data = [{
           description: "Speed- and state-aware rear-wheel steering for maneuverability and lateral stability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/rear-wheel-steering/";
-            },},{id: "projects-receding-horizon-gps-estimator",
-          title: 'Receding-Horizon GPS Estimator',
+            },},{id: "projects-sampled-receding-horizon-vehicle-state-estimation",
+          title: 'Sampled Receding-Horizon Vehicle State Estimation',
           description: "Horizon-based vehicle-state estimation for noisy, delayed, and intermittent positioning measurements.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/receding-horizon-estimator/";
@@ -136,8 +131,8 @@ ninja.data = [{
           description: "Multi-stage planning and control for parking a vehicle-trailer combination.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/trailer-parking-assist/";
-            },},{id: "projects-vehicle-stability-amp-integrated-chassis-control",
-          title: 'Vehicle Stability &amp;amp; Integrated Chassis Control',
+            },},{id: "projects-vehicle-integrated-chassis-control",
+          title: 'Vehicle Integrated Chassis Control',
           description: "Coordinated differential braking and semi-active suspension control for lateral and roll stability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/vehicle-stability-control/";
