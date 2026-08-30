@@ -6,6 +6,9 @@ img:
 importance: 6
 category: "Vehicle Motion Planning & Control"
 project_stage: "Selected Prior Work"
+images:
+  slider: true
+presentations: []
 ---
 
 ## Vehicle Side-Slip Angle Estimation
@@ -15,3 +18,5 @@ Side-slip angle is important for stability control but is difficult to measure w
 The estimator was evaluated in MATLAB/Simulink and CarSim and compared with RT3000 reference data from vehicle tests. The analysis included response speed, estimation error, sensor alignment, and behavior during transient maneuvers. The work was presented at the 2023 KSAE Annual Conference and is also connected to a multi-country patent application.
 
 **Key areas:** State estimation, sliding-mode observer, Kalman filter, vehicle dynamics, RT3000 evaluation
+
+{% include project_slide_decks.liquid %}

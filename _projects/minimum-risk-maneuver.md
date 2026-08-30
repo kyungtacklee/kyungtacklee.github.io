@@ -6,6 +6,9 @@ img:
 importance: 2
 category: "Vehicle Motion Planning & Control"
 project_stage: "Ongoing Projects"
+images:
+  slider: true
+presentations: []
 ---
 
 ## Minimum Risk Maneuver
@@ -18,3 +21,5 @@ This work studies how a vehicle can move to a lower-risk state when an automated
 I am building the workflow in MATLAB/Simulink and CarSim around fault-response and high-speed curved-road scenarios. At this stage, the public portfolio describes the architecture and simulation work only; it does not present the project as a completed safety or vehicle-validation result.
 
 **Key areas:** Minimum-risk planning, fallback control, state estimation, supervisory control, chassis coordination
+
+{% include project_slide_decks.liquid %}

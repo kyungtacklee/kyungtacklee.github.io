@@ -6,6 +6,9 @@ img:
 importance: 3
 category: "Vehicle Motion Planning & Control"
 project_stage: "Selected Prior Work"
+images:
+  slider: true
+presentations: []
 ---
 
 ## Evasive Collision Avoidance
@@ -18,3 +21,5 @@ This project joined evasive path generation, path tracking, and vehicle-stabilit
 My work covered the planning-and-control architecture, algorithm development, model-based evaluation, and real-time integration on dSPACE MicroAutoBox II. The controller was tuned and assessed using simulation and vehicle-test scenarios, with path-tracking behavior and vehicle motion reviewed together rather than as separate functions.
 
 **Key areas:** Evasive planning, path tracking, vehicle stabilization, real-time integration, scenario-based evaluation
+
+{% include project_slide_decks.liquid %}

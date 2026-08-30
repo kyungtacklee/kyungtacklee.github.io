@@ -6,6 +6,9 @@ img:
 importance: 1
 category: "Vehicle Motion Planning & Control"
 project_stage: "Selected Prior Work"
+images:
+  slider: true
+presentations: []
 ---
 
 ## Smart Hitching Assist
@@ -18,3 +21,5 @@ This project focused on the last few meters of trailer hitching, where a vehicle
 The controller was developed in MATLAB/Simulink and deployed to a dSPACE MicroAutoBox II. Development progressed from RTK-GPS-based testing to a camera-based setup, with perception noise, bias, delay, and dropped measurements represented in simulation before vehicle evaluation. The function was demonstrated to a customer in 2025 and received a company special recognition award.
 
 **Key areas:** Trailer dynamics, motion control, perception uncertainty, rapid control prototyping, vehicle testing
+
+{% include project_slide_decks.liquid %}

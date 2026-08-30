@@ -6,6 +6,9 @@ img:
 importance: 2
 category: "Mechanical System Design"
 project_stage: "Selected Prior Work"
+images:
+  slider: true
+presentations: []
 ---
 
 ## Gear System Design & Optimization
@@ -18,3 +21,5 @@ Before moving into vehicle control, I worked on gear systems for Electric Power 
 I also helped establish C-EPS gear-design standards and developed an in-house engineering program so recurring design and verification calculations could be performed consistently. That work received the Best Excellence Project award at HL Mando in 2018.
 
 **Key areas:** Gear design, durability, contact analysis, design standards, engineering software
+
+{% include project_slide_decks.liquid %}

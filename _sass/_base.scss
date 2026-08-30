@@ -1156,6 +1156,25 @@ swiper-container {
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
 
+.project-slide-deck {
+  swiper-container {
+    width: 100%;
+    padding-bottom: 2.25rem;
+  }
+
+  swiper-slide figure {
+    margin: 0;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background: var(--global-card-bg-color);
+  }
+}
+
 .ps-root {
   .ps-algorithm {
     margin: 0.8em 0;
