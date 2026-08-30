@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col col-sm-2 abbr">
+    <abbr
+      class="badge rounded w-100"
+      style="background-color: {% if include.status == 'Registered' %}#009f36{% else %}#00369f{% endif %}; color: white;"
+    >
+      {{ include.status }}
+    </abbr>
+  </div>
+  <div class="col-sm-8">
+    <div class="title">{{ include.patent.title }}</div>
+    <div class="author"><em>Kyungtack Lee</em></div>
+    <div class="periodical">
+      {% for filing in include.patent.filings %}
+        <div>{{ filing }}</div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
