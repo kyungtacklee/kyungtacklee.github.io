@@ -1175,6 +1175,21 @@ swiper-container {
   }
 }
 
+.project-gallery-item {
+  figure {
+    height: 100%;
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-height: 46rem;
+    object-fit: contain;
+    background: var(--global-card-bg-color);
+  }
+}
+
 .ps-root {
   .ps-algorithm {
     margin: 0.8em 0;

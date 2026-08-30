@@ -9,6 +9,10 @@ project_stage: "Selected Prior Work"
 images:
   slider: true
 presentations: []
+gallery:
+  - path: assets/img/projects/vehicle-stability-control/evs37-poster.jpg
+    alt: EVS37 poster on integrated chassis control for lateral stability
+    caption: Integrated chassis-control poster presented at EVS37.
 ---
 
 ## Vehicle Stability & Integrated Chassis Control
@@ -21,5 +25,7 @@ I developed a hierarchical chassis-control architecture that coordinates differe
 The controller was studied in MATLAB/Simulink and CarSim, followed by real-time implementation and vehicle evaluation. In the published comparison, the proposed damping distribution reduced the maximum roll angle by 17.4% and the maximum side-slip angle by 8.7% against the respective conventional methods. The work received the Best Dialogue Award at EVS37 and was later published in the *World Electric Vehicle Journal*.
 
 **Key areas:** Vehicle dynamics, integrated chassis control, differential braking, semi-active suspension, control allocation
+
+{% include project_gallery.liquid %}
 
 {% include project_slide_decks.liquid %}

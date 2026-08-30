@@ -14,7 +14,7 @@
           </p>
         {% endif %}
 
-        {% if deck.slides and deck.slides != empty %}
+        {% if deck.slides and deck.slides != empty or deck.slide_count and deck.slide_dir %}
           <swiper-container
             navigation="true"
             pagination="true"
@@ -35,6 +35,28 @@
                 %}
               </swiper-slide>
             {% endfor %}
+
+            {% if deck.slide_count and deck.slide_dir %}
+              {% assign slide_extension = deck.slide_ext | default: 'png' %}
+              {% for slide_number in (1..deck.slide_count) %}
+                {% if slide_number < 10 %}
+                  {% assign slide_filename = 'slide-0' | append: slide_number | append: '.' | append: slide_extension %}
+                {% else %}
+                  {% assign slide_filename = 'slide-' | append: slide_number | append: '.' | append: slide_extension %}
+                {% endif %}
+                {% assign slide_path = deck.slide_dir | append: '/' | append: slide_filename %}
+
+                <swiper-slide>
+                  {% capture slide_alt %}{{ deck.title }} — slide {{ slide_number }}{% endcapture %}
+                  {% include figure.liquid
+                    path=slide_path
+                    alt=slide_alt
+                    class="img-fluid rounded z-depth-1"
+                    loading="lazy"
+                  %}
+                </swiper-slide>
+              {% endfor %}
+            {% endif %}
           </swiper-container>
         {% endif %}
 
