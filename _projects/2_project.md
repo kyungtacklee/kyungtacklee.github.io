@@ -5,7 +5,7 @@ description: Coordinated differential braking and semi-active suspension control
 img:
 importance: 2
 category: "Vehicle Motion Planning & Control"
-project_stage: "Previous Work"
+project_stage: "Selected Prior Work"
 ---
 
 ## Vehicle Stability & Integrated Chassis Control

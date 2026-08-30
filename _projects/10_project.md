@@ -5,7 +5,7 @@ description: Smooth, vehicle-feasible path generation for constrained and comple
 img:
 importance: 5
 category: "Vehicle Motion Planning & Control"
-project_stage: "Previous Work"
+project_stage: "Selected Prior Work"
 ---
 
 ## Continuous-Curvature Bézier Path Planning

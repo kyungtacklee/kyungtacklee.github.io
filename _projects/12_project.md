@@ -5,7 +5,7 @@ description: Horizon-based vehicle-state estimation for noisy, delayed, and inte
 img:
 importance: 7
 category: "Vehicle Motion Planning & Control"
-project_stage: "Previous Work"
+project_stage: "Selected Prior Work"
 ---
 
 ## Receding-Horizon GPS Estimator

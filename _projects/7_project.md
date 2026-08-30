@@ -5,7 +5,7 @@ description: System design and interface development for integrated electric cor
 img:
 importance: 1
 category: "Mechanical System Design"
-project_stage: "Previous Work"
+project_stage: "Selected Prior Work"
 ---
 
 ## E-Corner & Wheel Module Development

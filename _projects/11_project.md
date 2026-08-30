@@ -5,7 +5,7 @@ description: Combined-model estimation using a sliding-mode observer and Kalman 
 img:
 importance: 6
 category: "Vehicle Motion Planning & Control"
-project_stage: "Previous Work"
+project_stage: "Selected Prior Work"
 ---
 
 ## Vehicle Side-Slip Angle Estimation

@@ -8,47 +8,34 @@
     - name: Website
       value: https://kyungtacklee.github.io/
 
-- title: Professional Summary
+- title: Summary
   type: list
   contents:
-    - Vehicle motion control and autonomous driving engineer with more than ten years of experience in automotive and production-oriented engineering. Technical lead and project owner for safety-critical planning and control functions, with end-to-end experience spanning algorithm architecture, simulation, real-time implementation, vehicle integration, tuning, and validation.
+    - Vehicle chassis control and motion planning engineer with more than ten years of experience in automotive engineering. Technical lead and project owner for safety-critical planning and control functions, with end-to-end experience spanning algorithm architecture, simulation, real-time implementation, vehicle integration, tuning, and validation.
 
-- title: Core Competencies
+- title: Technical Focus
   type: nested_list
   contents:
-    - title: Planning and Control
+    - title: Vehicle Dynamics and Control
       items:
-        - Motion planning, path generation, and path tracking control
+        - Vehicle dynamics modeling, analysis, and state estimation
         - Vehicle stability control and integrated chassis control
-        - Optimization-based control and state estimation
-    - title: Vehicle Engineering
+        - Actuator coordination for braking, steering, and suspension systems
+        - Optimal, model predictive, and optimization-based control
+    - title: Motion Planning and Control
       items:
-        - Vehicle dynamics, actuator coordination, vehicle integration, and calibration
-        - In-vehicle testing and recorded-data analysis
-    - title: Programming
+        - Path and trajectory planning for autonomous vehicle maneuvers
+        - Collision avoidance and minimum-risk motion planning
+        - Path and trajectory tracking control
+        - Planning and control integration for safety-critical functions
+    - title: Validation
       items:
-        - C for production software analysis and development
-        - MATLAB
-        - Python
-    - title: Model-Based and Real-Time Development
-      items:
-        - MATLAB/Simulink and dSPACE MicroAutoBox II
-        - Real-time model build and deployment and rapid control prototyping
-    - title: NVIDIA Platforms
-      items:
-        - NVIDIA Jetson AGX
-        - Isaac Sim
-    - title: Simulation and Validation
-      items:
-        - CarSim, CarMaker, scenario-based simulation, and recorded-data analysis
-        - Vehicle-level evaluation against measurable performance criteria
-    - title: Automotive Development Processes
-      items:
-        - AUTOSAR-aligned and requirements-based development
-        - Unit and integration testing, configuration and change management, and vehicle-level verification
-        - Familiarity with ISO 26262 Functional Safety, ISO 21448 SOTIF, and Automotive SPICE
+        - Model-based development and simulation using MATLAB/Simulink, CarSim, CarMaker, and Isaac Sim
+        - Real-time implementation and rapid control prototyping using dSPACE MicroAutoBox II and NVIDIA Jetson AGX
+        - Vehicle integration, calibration, in-vehicle testing, and recorded-data analysis
+        - Requirements-based verification, unit and integration testing, and vehicle-level evaluation
 
-- title: Professional Experience
+- title: Experience
   type: time_table
   contents:
     - title: Senior Research Engineer
@@ -86,37 +73,6 @@
       description:
         - Wheelchair robot development
 
-- title: Projects
-  type: time_table
-  contents:
-    - title: Trailer Parking Assist and Minimum Risk Maneuver
-      institution: HL Mando
-      year: 2026 - Present
-      description:
-        - Technical Lead and Project Owner
-        - Leading planning and control development from algorithm architecture and simulation through real-time implementation, system integration, and vehicle-level evaluation
-    - title: Smart Hitching Assist
-      institution: HL Mando
-      year: 2025
-      description:
-        - Technical Lead and Project Owner
-        - Led end-to-end planning and control development, real-time deployment, vehicle integration, calibration, and validation
-        - Delivered a successful customer demonstration and received a Company Special Recognition Award in December 2025
-    - title: Evasive Collision Avoidance
-      institution: HL Mando
-      year: 2024
-      description:
-        - Technical Lead and Project Owner
-        - Owned the full planning and control scope, including evasive path generation, path tracking control, and vehicle stability coordination
-        - Conducted simulation, real-time execution, in-vehicle tuning, and safety-critical scenario testing
-    - title: Vehicle Stability Control Assist
-      institution: HL Mando
-      year: 2024
-      description:
-        - Technical Lead and Project Owner
-        - Developed hierarchical integrated chassis control combining differential braking and semi-active suspension damping
-        - Validated vehicle-level performance using quantitative stability and handling metrics
-
 - title: Education
   type: time_table
   contents:
@@ -152,6 +108,7 @@
       description:
         - "Lyapunov-Informed Model Predictive Path Integral Control for Robust Trailer Hitch Assist under Perception Uncertainty"
       image: assets/img/KSAE_25_BeatPaperAward.png
+      image_max_width: 260px
       image_alt: Outstanding Paper Award certificate from the Korean Society of Automotive Engineers
       image_caption: KSAE Outstanding Paper Award — Oral Session, 2025
     - title: Excellence Award — R&D Outstanding Paper
@@ -160,6 +117,7 @@
       description:
         - "Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability"
       image: assets/img/Mando_2024.png
+      image_max_width: 260px
       image_alt: R&D Outstanding Paper Award certificate from HL Mando
       image_caption: HL Mando Excellence Award — R&D Outstanding Paper, 2024
     - title: Outstanding Paper Award — Poster Session
@@ -168,6 +126,7 @@
       description:
         - "Continuous Curvature Path Planning Based on Bézier Curves for Autonomous Driving in Complex Environments"
       image: assets/img/KSAE_2024.png
+      image_max_width: 260px
       image_alt: Outstanding Paper Award certificate from the Korean Society of Automotive Engineers
       image_caption: KSAE Outstanding Paper Award — Poster Session, 2024
     - title: Best Dialogue Award
@@ -176,6 +135,7 @@
       description:
         - "Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability"
       image: assets/img/EVS_2024.png
+      image_max_width: 260px
       image_alt: Kyungtack Lee receiving the Best Dialogue Award at EVS37
       image_caption: Best Dialogue Award at EVS37, 2024
     - title: Mando Academic Training Program
@@ -199,5 +159,6 @@
       description:
         - "Development and Optimization of Worm Gear Based on Tooth Deformation Analysis in Electric Power Steering"
       image: assets/img/Mando_2017+TechCong.png
+      image_max_width: 260px
       image_alt: Grand Prize certificate from the Mando Global R&D Tech Congress
       image_caption: Grand Prize — Global R&D Tech Congress, 2017
