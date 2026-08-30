@@ -14,7 +14,15 @@
           </p>
         {% endif %}
 
-        {% if deck.slides and deck.slides != empty or deck.slide_count and deck.slide_dir %}
+        {% assign has_slides = false %}
+        {% if deck.slides and deck.slides != empty %}
+          {% assign has_slides = true %}
+        {% endif %}
+        {% if deck.slide_count and deck.slide_dir %}
+          {% assign has_slides = true %}
+        {% endif %}
+
+        {% if has_slides %}
           <swiper-container
             navigation="true"
             pagination="true"
