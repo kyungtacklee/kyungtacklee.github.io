@@ -12,7 +12,14 @@
     <div class="author"><em>Kyungtack Lee</em></div>
     <div class="periodical">
       {% for filing in include.patent.filings %}
-        <div>{{ filing }}</div>
+        {% assign kr_registration = filing | split: '; KR registration ' %}
+        <div>
+          {% if kr_registration.size == 2 %}
+            {{ kr_registration[0] }}; <strong>KR registration {{ kr_registration[1] }}</strong>
+          {% else %}
+            {{ filing }}
+          {% endif %}
+        </div>
       {% endfor %}
     </div>
   </div>

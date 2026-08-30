@@ -5,7 +5,7 @@ permalink: /projects/
 description: Ongoing projects and previous work in vehicle motion planning, control, and mechanical system design.
 nav: true
 nav_order: 3
-display_stages: ["Ongoing Projects", "Previous Work"]
+display_stages: ["Previous Work", "Ongoing Projects"]
 display_categories: ["Vehicle Motion Planning & Control", "Mechanical System Design"]
 horizontal: true
 _styles: |
