@@ -2,18 +2,13 @@
 layout: page
 title: Evasive Collision Avoidance
 description: Integrated path generation, tracking control, and vehicle stabilization for evasive maneuvers.
-img: assets/img/projects/evasive-collision-avoidance/evasive-collision-avoidance-concept.jpg
+img:
 importance: 3
 category: "Vehicle Motion Planning & Control"
 project_stage: "Selected Prior Work"
 images:
   slider: true
 presentations: []
-gallery:
-  - path: assets/img/projects/evasive-collision-avoidance/evasive-collision-avoidance-concept.jpg
-    alt: Stable obstacle-evasion concept using coordinated chassis actuators
-    caption: Evasive collision-avoidance concept with coordinated chassis actuation.
-    wide: true
 ---
 
 ## Evasive Collision Avoidance

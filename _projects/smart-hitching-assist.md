@@ -2,20 +2,12 @@
 layout: page
 title: Smart Hitching Assist
 description: Planning, control, and vehicle integration for automated trailer hitching under perception uncertainty.
-img: assets/img/projects/smart-hitching-assist/smart-hitching-assist.png
+img:
 importance: 1
 category: "Vehicle Motion Planning & Control"
 project_stage: "Selected Prior Work"
 images:
   slider: true
-gallery:
-  - path: assets/img/projects/smart-hitching-assist/smart-hitching-assist.png
-    alt: Smart Hitching Assist concept and user-interface visualization
-    caption: Smart Hitching Assist concept and interface visualization.
-    wide: true
-  - path: assets/img/projects/smart-hitching-assist/ksae-2025-best-paper-award.png
-    alt: 2025 KSAE Annual Conference Best Paper Award certificate
-    caption: Best Paper Award, 2025 KSAE Annual Conference.
 presentations:
   - title: Lyapunov-Informed MPPI for Robust Trailer Hitch Assist under Perception Uncertainty
     venue: KSAE Annual Conference

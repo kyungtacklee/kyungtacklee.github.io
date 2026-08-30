@@ -17,12 +17,6 @@ gallery:
     alt: Worm-gear load-carrying capacity chart with temperature and failure limits
     caption: Load-capacity envelope across temperature and mechanical failure limits.
     wide: true
-  - path: assets/img/projects/plastic-worm-gear/2017-global-rd-award.png
-    alt: 2017 HL Mando Global R and D Conference Grand Prize certificate
-    caption: Grand Prize, 2017 HL Mando Global R&D Conference.
-  - path: assets/img/projects/plastic-worm-gear/2018-innovation-award.png
-    alt: 2018 HL Mando innovation award certificate for the C-EPS temperature model
-    caption: Innovation recognition for the C-EPS temperature-model development.
 ---
 
 ## Plastic Worm Gear Design & Temperature Model
