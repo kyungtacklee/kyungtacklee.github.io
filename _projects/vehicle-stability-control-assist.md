@@ -1,21 +1,13 @@
 ---
 layout: page
-title: Vehicle Stability & Integrated Chassis Control
-description: Coordinated differential braking and semi-active suspension control for lateral and roll stability.
+title: Vehicle Stability Control Assist
+description: Vehicle-stability support through integrated chassis control and vehicle-state estimation.
 img:
-importance: 2
-category: "Vehicle Motion Planning & Control"
+importance: 1
 project_stage: "Selected Prior Work"
-images:
-  slider: true
-presentations: []
-gallery:
-  - path: assets/img/projects/vehicle-stability-control/evs37-poster.jpg
-    alt: EVS37 poster on integrated chassis control for lateral stability
-    caption: Integrated chassis-control poster presented at EVS37.
 ---
 
-## Vehicle Stability & Integrated Chassis Control
+## Vehicle Stability Control Assist
 
 **Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
@@ -26,6 +18,16 @@ The controller was studied in MATLAB/Simulink and CarSim, followed by real-time 
 
 **Key areas:** Vehicle dynamics, integrated chassis control, differential braking, semi-active suspension, control allocation
 
-{% include project_gallery.liquid %}
+## Representative Work
 
-{% include project_slide_decks.liquid %}
+### Integrated Chassis Control of Steering, Brake, and Suspension
+
+_Details and media to be added._
+
+### Vehicle Side-Slip Angle and Roll Angle Estimation
+
+_Details and media to be added._
+
+### Demonstration
+
+_Details and media to be added._

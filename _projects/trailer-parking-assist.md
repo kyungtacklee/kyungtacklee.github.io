@@ -4,11 +4,7 @@ title: Trailer Parking Assist
 description: Multi-stage planning and control for parking a vehicle-trailer combination.
 img:
 importance: 1
-category: "Vehicle Motion Planning & Control"
 project_stage: "Ongoing Projects"
-images:
-  slider: true
-presentations: []
 ---
 
 ## Trailer Parking Assist
@@ -22,4 +18,12 @@ The engineering work uses MATLAB/Simulink models and vehicle-trailer simulation 
 
 **Key areas:** Trailer parking, multi-stage planning, hitch-angle control, system integration, automated-driving functions
 
-{% include project_slide_decks.liquid %}
+## Representative Work
+
+### Path Planning
+
+_Details and media to be added._
+
+### Tracking Control
+
+_Details and media to be added._
