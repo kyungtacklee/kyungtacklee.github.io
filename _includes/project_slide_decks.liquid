@@ -1,0 +1,49 @@
+{% if page.presentations and page.presentations != empty %}
+  <section class="project-presentations mt-5">
+    <h2>Presentation Slides</h2>
+
+    {% for deck in page.presentations %}
+      <div class="project-slide-deck mt-4 mb-5">
+        <h3>{{ deck.title }}</h3>
+
+        {% if deck.venue or deck.year %}
+          <p class="text-muted">
+            {% if deck.venue %}{{ deck.venue }}{% endif %}
+            {% if deck.venue and deck.year %} · {% endif %}
+            {% if deck.year %}{{ deck.year }}{% endif %}
+          </p>
+        {% endif %}
+
+        {% if deck.slides and deck.slides != empty %}
+          <swiper-container
+            navigation="true"
+            pagination="true"
+            pagination-clickable="true"
+            keyboard="true"
+            space-between="16"
+            slides-per-view="1"
+            auto-height="true"
+          >
+            {% for slide in deck.slides %}
+              <swiper-slide>
+                {% include figure.liquid
+                  path=slide.path
+                  alt=slide.alt
+                  caption=slide.caption
+                  class="img-fluid rounded z-depth-1"
+                  loading="lazy"
+                %}
+              </swiper-slide>
+            {% endfor %}
+          </swiper-container>
+        {% endif %}
+
+        {% if deck.pdf %}
+          <p class="mt-3">
+            <a href="{{ deck.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button">View Full Presentation (PDF)</a>
+          </p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </section>
+{% endif %}

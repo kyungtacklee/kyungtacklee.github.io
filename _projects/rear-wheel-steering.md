@@ -6,6 +6,9 @@ img:
 importance: 4
 category: "Vehicle Motion Planning & Control"
 project_stage: "Ongoing Projects"
+images:
+  slider: true
+presentations: []
 ---
 
 ## Rear-Wheel Steering Control & Dynamic Planning
@@ -17,3 +20,5 @@ Rear-wheel steering can improve low-speed maneuverability and high-speed stabili
 The models were developed in MATLAB/Simulink with interfaces for code generation, CAN communication, and rapid control prototyping. Evaluation focuses on path-tracking behavior, steering demand, and lateral vehicle response across representative scenarios.
 
 **Key areas:** Rear-wheel steering, vehicle dynamics, dynamic planning, Simulink, rapid control prototyping
+
+{% include project_slide_decks.liquid %}

@@ -6,6 +6,9 @@ img:
 importance: 1
 category: "Vehicle Motion Planning & Control"
 project_stage: "Ongoing Projects"
+images:
+  slider: true
+presentations: []
 ---
 
 ## Trailer Parking Assist
@@ -18,3 +21,5 @@ Trailer parking requires coordinated forward and reverse motion while keeping hi
 The engineering work uses MATLAB/Simulink models and vehicle-trailer simulation to study multi-stage maneuvers and controller transitions. Public details are intentionally limited to the overall architecture and methods while the project remains in development.
 
 **Key areas:** Trailer parking, multi-stage planning, hitch-angle control, system integration, automated-driving functions
+
+{% include project_slide_decks.liquid %}

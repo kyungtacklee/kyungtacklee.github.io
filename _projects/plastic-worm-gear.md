@@ -6,6 +6,9 @@ img:
 importance: 3
 category: "Mechanical System Design"
 project_stage: "Selected Prior Work"
+images:
+  slider: true
+presentations: []
 ---
 
 ## Plastic Worm Gear Design & Temperature Model
@@ -15,3 +18,5 @@ This work brought together two related problems in plastic reduction gears: toot
 The later high-torque reduction-gear project linked S–N-curve-based durability calculations with a gear temperature model. These projects received the Grand Prize at the 2017 HL Mando Global R&D Tech Congress and an Excellence Project award in 2020. The worm-gear method was also presented at the 2022 KSAE Annual Conference.
 
 **Key areas:** Plastic worm gears, tooth deformation, profile optimization, S–N curves, temperature modeling
+
+{% include project_slide_decks.liquid %}
