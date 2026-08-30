@@ -1,17 +1,13 @@
 ---
 layout: page
-title: Gear System Design & Optimization
+title: Gear System Design
 description: Gear design, durability analysis, and engineering-tool development for automotive actuation systems.
 img:
-importance: 2
-category: "Mechanical System Design"
+importance: 4
 project_stage: "Selected Prior Work"
-images:
-  slider: true
-presentations: []
 ---
 
-## Gear System Design & Optimization
+## Gear System Design
 
 **Organization:** HL Mando<br>
 **Period:** 2015–2019
@@ -22,4 +18,12 @@ I also helped establish C-EPS gear-design standards and developed an in-house en
 
 **Key areas:** Gear design, durability, contact analysis, design standards, engineering software
 
-{% include project_slide_decks.liquid %}
+## Representative Work
+
+### Gear Design Optimization Based on Tooth Deformation
+
+_Details and media to be added._
+
+### Plastic Worm Gear and Temperature Model
+
+_Details and media to be added._

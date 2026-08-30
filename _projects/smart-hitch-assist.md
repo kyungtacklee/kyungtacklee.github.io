@@ -1,23 +1,13 @@
 ---
 layout: page
-title: Smart Hitching Assist
+title: Smart Hitch Assist
 description: Planning, control, and vehicle integration for automated trailer hitching under perception uncertainty.
 img:
-importance: 1
-category: "Vehicle Motion Planning & Control"
+importance: 2
 project_stage: "Selected Prior Work"
-images:
-  slider: true
-presentations:
-  - title: Lyapunov-Informed MPPI for Robust Trailer Hitch Assist under Perception Uncertainty
-    venue: KSAE Annual Conference
-    year: 2025
-    slide_dir: assets/img/projects/smart-hitching-assist/slides
-    slide_count: 22
-    slide_ext: png
 ---
 
-## Smart Hitching Assist
+## Smart Hitch Assist
 
 **Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
@@ -28,6 +18,12 @@ The controller was developed in MATLAB/Simulink and deployed to a dSPACE MicroAu
 
 **Key areas:** Trailer dynamics, motion control, perception uncertainty, rapid control prototyping, vehicle testing
 
-{% include project_gallery.liquid %}
+## Representative Work
 
-{% include project_slide_decks.liquid %}
+### Lyapunov-Informed MPPI
+
+_Details and media to be added._
+
+### Bézier Curve-Based Path Planning
+
+_Details and media to be added._

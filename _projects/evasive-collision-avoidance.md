@@ -4,11 +4,7 @@ title: Evasive Collision Avoidance
 description: Integrated path generation, tracking control, and vehicle stabilization for evasive maneuvers.
 img:
 importance: 3
-category: "Vehicle Motion Planning & Control"
 project_stage: "Selected Prior Work"
-images:
-  slider: true
-presentations: []
 ---
 
 ## Evasive Collision Avoidance
@@ -22,6 +18,8 @@ My work covered the planning-and-control architecture, algorithm development, mo
 
 **Key areas:** Evasive planning, path tracking, vehicle stabilization, real-time integration, scenario-based evaluation
 
-{% include project_gallery.liquid %}
+## Representative Work
 
-{% include project_slide_decks.liquid %}
+### Demonstration
+
+_Details and media to be added._

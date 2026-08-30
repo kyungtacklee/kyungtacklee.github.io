@@ -1,22 +1,13 @@
 ---
 layout: page
-title: E-Corner & Wheel Module Development
+title: E-Corner Module System Design
 description: System design and interface development for integrated electric corner modules.
-img: assets/img/projects/e-corner-wheel-module/e-corner-module.png
-importance: 1
-category: "Mechanical System Design"
+img:
+importance: 5
 project_stage: "Selected Prior Work"
-images:
-  slider: true
-presentations: []
-gallery:
-  - path: assets/img/projects/e-corner-wheel-module/e-corner-module.png
-    alt: E-Corner module suspension and wheel assembly
-    caption: E-Corner module hardware and wheel assembly.
-    wide: true
 ---
 
-## E-Corner & Wheel Module Development
+## E-Corner Module System Design
 
 **Role:** System design and analysis<br>
 **Organization:** HL Mando<br>
@@ -28,6 +19,12 @@ This project connects my earlier mechanical-system background with later work in
 
 **Key areas:** E-Corner, wheel modules, system architecture, interface design, 4WISD
 
-{% include project_gallery.liquid %}
+## Representative Work
 
-{% include project_slide_decks.liquid %}
+### E-Corner Module Multibody Simulation and Design
+
+_Details and media to be added._
+
+### Demonstration
+
+_Details and media to be added._
