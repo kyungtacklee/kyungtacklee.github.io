@@ -86,7 +86,7 @@ ninja.data = [{
               window.location.href = "/projects/smart-hitch-assist/";
             },},{id: "projects-supervisory-vehicle-control",
           title: 'Supervisory Vehicle Control',
-          description: "Supervisory coordination of minimum-risk maneuvers and integrated chassis-control functions.",
+          description: "Integrated chassis control for path tracking and vehicle stability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/supervisory-vehicle-control/";
             },},{id: "projects-trailer-parking-assist",
