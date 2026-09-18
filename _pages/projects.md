@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Selected prior work and ongoing projects in vehicle systems, motion planning, and control.
-nav: true
+nav: false
 nav_order: 3
 display_stages: ["Selected Prior Work", "Ongoing Projects"]
 horizontal: true
