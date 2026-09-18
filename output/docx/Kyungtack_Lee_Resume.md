@@ -1,6 +1,6 @@
-<!-- 42dot 재지원 검토 초안 | 2026-09-19. 기존 PDF에서 변환·수정한 Markdown의 영문 검토본. 연구 진행 단계와 검증 범위를 구분했으며, 이후 문구 수정은 이 파일에서 진행함. -->
+<!-- 기본 영문 이력서 | 2026-09-19. 검토한 42dot Markdown 내용을 반영한 공통 원본. -->
 
-# 이경택 | Kyungtack Lee
+# Kyungtack Lee
 
 Vehicle Dynamics and Control | Path Planning & Tracking Control
 kyungtacklee.github.io | kyungtacklee@gmail.com | +82 10-2632-3242
@@ -69,7 +69,7 @@ Vehicle dynamics and control engineer with more than ten years of experience in 
 
 - Developing an optimal control architecture that coordinates steering, braking, and suspension while jointly considering tracking error and vehicle stability metrics.
 - Developed sampling-based MHE to improve longitudinal and lateral velocity estimation under challenging driving conditions, and evaluated it using recorded vehicle data.
-- Designed an MPPI-based control architecture that jointly addresses path tracking and vehicle stabilization.
+- Designed an MPPI-based control architecture for integrated path tracking and vehicle stabilization.
 - Developed a software-in-the-loop simulation (SiLS) environment using MATLAB/Simulink, CarSim, and CARLA, and an NVIDIA Jetson AGX-based rapid control prototyping (RCP) environment for state-estimation and control-module integration.
 
 ## EDUCATION

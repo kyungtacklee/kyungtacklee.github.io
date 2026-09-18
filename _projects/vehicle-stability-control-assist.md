@@ -12,15 +12,19 @@ project_stage: "Selected Prior Work"
 **Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
 
-I developed a hierarchical chassis-control architecture that coordinates differential braking and semi-active suspension damping. The work connected vehicle-state estimation, mode supervision, yaw and roll control, and wheel-level control allocation in one system rather than treating each actuator independently.
+I developed integrated control of differential braking and semi-active suspension to address the trade-off between lateral stability and roll response during severe lane-change maneuvers.
 
-The controller was studied in MATLAB/Simulink and CarSim, followed by real-time implementation and vehicle evaluation. In the published comparison, the proposed damping distribution reduced the maximum roll angle by 17.4% and the maximum side-slip angle by 8.7% against the respective conventional methods. The work received the Best Dialogue Award at EVS37 and was later published in the *World Electric Vehicle Journal*.
+Sliding-mode observers estimate sideslip and roll states, while sliding-mode control computes target moments. Optimal control allocation distributes wheel brake torques and suspension damping, with roll-region-index-based damping allocation coordinating lateral and roll behavior.
 
-**Key areas:** Vehicle dynamics, integrated chassis control, differential braking, semi-active suspension, control allocation
+The controller was implemented and evaluated through simulation and vehicle testing using MATLAB/Simulink, CarSim, and dSPACE MicroAutoBox II. The work received the Best Dialogue Award at EVS37 and was later published in the *World Electric Vehicle Journal*.
+
+**Related publication:** K. Lee and J. Seol, “Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability,” *World Electric Vehicle Journal*, 16(2):91, 2025.
+
+**Key areas:** Vehicle dynamics, sliding-mode observers, sliding-mode control, optimal control allocation, differential braking, semi-active suspension
 
 ## Representative Work
 
-### Integrated Chassis Control of Steering, Brake, and Suspension
+### Integrated Control of Differential Braking and Semi-Active Suspension
 
 _Details and media to be added._
 

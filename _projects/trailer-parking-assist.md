@@ -12,11 +12,13 @@ project_stage: "Ongoing Projects"
 **Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
 
-Trailer parking requires coordinated forward and reverse motion while keeping hitch angle, steering limits, gear changes, and jackknife risk under control. I have been developing the planning-and-control structure for parallel and perpendicular parking scenarios, including the interfaces between path planning, lateral and longitudinal control, sensors, and the driver-facing operating sequence.
+I developed path planning and tracking control for forward and reverse parking maneuvers of a vehicle-trailer combination.
 
-The engineering work uses MATLAB/Simulink models and vehicle-trailer simulation to study multi-stage maneuvers and controller transitions. Public details are intentionally limited to the overall architecture and methods while the project remains in development.
+The controller uses sampling-based optimal control with constraints to address jackknife risk during parking maneuvers. The work combines path planning with tracking control for the coupled vehicle-trailer motion.
 
-**Key areas:** Trailer parking, multi-stage planning, hitch-angle control, system integration, automated-driving functions
+Development includes real-time implementation, tuning, and vehicle evaluation using MATLAB/Simulink and dSPACE MicroAutoBox II. The project remains in development.
+
+**Key areas:** Vehicle-trailer control, forward and reverse tracking, sampling-based optimal control, jackknife-risk constraints, vehicle evaluation
 
 ## Representative Work
 
