@@ -12,11 +12,13 @@ project_stage: "Selected Prior Work"
 **Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
 
-This project joined evasive path generation, path tracking, and vehicle-stability control in a single development flow. The main challenge was not only finding a collision-avoidance path, but also producing commands that remained compatible with vehicle and actuator limits during a rapid maneuver.
+I developed evasive path generation and coordinated braking, rear-wheel steering, and front-steering assistance for path tracking and vehicle stabilization around obstacles ahead.
 
-My work covered the planning-and-control architecture, algorithm development, model-based evaluation, and real-time integration on dSPACE MicroAutoBox II. The controller was tuned and assessed using simulation and vehicle-test scenarios, with path-tracking behavior and vehicle motion reviewed together rather than as separate functions.
+MPC-based integrated chassis control combines path planning, tracking, and vehicle stabilization. My work covered algorithm development, real-time implementation, vehicle integration, and calibration, with tracking behavior and vehicle stability evaluated together.
 
-**Key areas:** Evasive planning, path tracking, vehicle stabilization, real-time integration, scenario-based evaluation
+The controller was implemented and evaluated through simulation and vehicle testing using MATLAB/Simulink, CarSim, and dSPACE MicroAutoBox II.
+
+**Key areas:** MPC, trajectory tracking, integrated chassis control, steering–brake coordination, vehicle stabilization, vehicle testing
 
 ## Representative Work
 

@@ -12,11 +12,13 @@ project_stage: "Selected Prior Work"
 **Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
 
-This project focused on the last few meters of trailer hitching, where a vehicle must reverse toward a coupler using noisy camera-based position and pose estimates. My work covered the control architecture, motion-control algorithms, real-time implementation, vehicle integration, calibration, and test planning.
+I developed low-speed automated driving for precise trailer hitch alignment using camera-based target-pose estimates. My work covered the control architecture, algorithm development, real-time implementation, vehicle integration, calibration, and evaluation.
 
-The controller was developed in MATLAB/Simulink and deployed to a dSPACE MicroAutoBox II. Development progressed from RTK-GPS-based testing to a camera-based setup, with perception noise, bias, delay, and dropped measurements represented in simulation before vehicle evaluation. The function was demonstrated to a customer in 2025 and received a company special recognition award.
+Real-time obstacle avoidance and continuous-curvature path generation use Bézier curves. Lyapunov-informed MPPI controls lateral alignment, while speed-feedback control handles longitudinal motion.
 
-**Key areas:** Trailer dynamics, motion control, perception uncertainty, rapid control prototyping, vehicle testing
+The controller was implemented, tuned, and evaluated on a vehicle using MATLAB/Simulink and dSPACE MicroAutoBox II. The function completed a customer demonstration and received a Company Special Recognition Award.
+
+**Key areas:** Trailer hitch alignment, Lyapunov-informed MPPI, Bézier path generation, speed-feedback control, perception uncertainty, vehicle testing
 
 ## Representative Work
 

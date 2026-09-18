@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Supervisory Vehicle Control
-description: Supervisory coordination of minimum-risk maneuvers and integrated chassis-control functions.
+description: Integrated chassis control for path tracking and vehicle stability.
 img:
 importance: 2
 project_stage: "Ongoing Projects"
@@ -12,18 +12,20 @@ project_stage: "Ongoing Projects"
 **Role:** Technical lead and project owner<br>
 **Organization:** HL Mando
 
-This work studies how a vehicle can move to a lower-risk state when an automated-driving function or a supporting signal becomes unavailable. The development scope includes state estimation, target trajectory and speed generation, and supervisory coordination with existing chassis controllers such as ESC and rear-wheel steering.
+I am developing an optimal control architecture that coordinates steering, braking, and suspension while jointly considering tracking error and vehicle stability metrics.
 
-I am building the workflow in MATLAB/Simulink and CarSim around fault-response and high-speed curved-road scenarios. At this stage, the public portfolio describes the architecture and simulation work only; it does not present the project as a completed safety or vehicle-validation result.
+The work includes sampling-based moving horizon estimation (MHE) for longitudinal and lateral velocity estimation, evaluated using recorded vehicle data. An MPPI-based control architecture is designed to jointly address path tracking and vehicle stabilization.
 
-**Key areas:** Minimum-risk planning, fallback control, state estimation, supervisory control, chassis coordination
+I developed a software-in-the-loop simulation environment using MATLAB/Simulink, CarSim, and CARLA, together with an NVIDIA Jetson AGX-based rapid control prototyping environment for state-estimation and control-module integration. The control architecture remains under development; the estimation evaluation and integration environments represent the current scope of this work.
+
+**Key areas:** Integrated chassis control, trajectory tracking, vehicle stability, MPPI, moving horizon estimation, simulation and real-time integration
 
 ## Representative Work
 
-### Minimum Risk Maneuver
+### Vehicle State Estimation
 
 _Details and media to be added._
 
-### Integrated Chassis Control
+### Integrated Chassis Control for Path Tracking and Vehicle Stability
 
 _Details and media to be added._
