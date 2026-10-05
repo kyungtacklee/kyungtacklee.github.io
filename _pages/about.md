@@ -2,7 +2,7 @@
 layout: about
 title: Kyungtack Lee
 permalink: /
-subtitle: Vehicle Dynamics and Control | Motion Planning and Control
+subtitle: Vehicle Dynamics & Control | Motion Planning & Optimization | Autonomous Driving
 
 profile:
   align: right

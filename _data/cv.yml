@@ -7,33 +7,36 @@
       value: kyungtacklee@gmail.com
     - name: Website
       value: https://kyungtacklee.github.io/
+    - name: LinkedIn
+      value: '<a href="https://www.linkedin.com/in/kyungtack-lee-807390135/" target="_blank" rel="noopener noreferrer">Kyungtack Lee</a>'
 
 - title: Summary
   type: list
   contents:
-    - Vehicle chassis control and motion planning engineer with more than ten years of experience in automotive engineering. Technical lead and project owner for safety-critical planning and control functions, with end-to-end experience spanning algorithm architecture, simulation, real-time implementation, vehicle integration, tuning, and validation.
+    - Vehicle dynamics and control engineer with more than ten years of experience in automotive engineering, specializing in motion planning, trajectory tracking, and optimization-based control for autonomous driving.
+    - At HL Mando, I serve as a technical lead and project owner, leading development from function architecture and algorithm design through simulation, real-time implementation, vehicle integration, calibration, and validation.
 
 - title: Technical Focus
   type: nested_list
   contents:
-    - title: Vehicle Dynamics and Control
+    - title: Vehicle Dynamics & Control
       items:
-        - Vehicle dynamics modeling, analysis, and state estimation
-        - Vehicle stability control and integrated chassis control
-        - Actuator coordination for braking, steering, and suspension systems
-        - Optimal, model predictive, and optimization-based control
-    - title: Motion Planning and Control
+        - Integrated chassis control, trajectory tracking, and vehicle stabilization
+        - Steering–brake coordination and wheel-level optimal control allocation
+        - Nonlinear and optimization-based control using SMC, LQR, MPC, and MPPI
+        - Vehicle state estimation using Kalman filters, sliding-mode observers, and receding-horizon estimators
+    - title: Motion Planning & Optimization
       items:
-        - Path and trajectory planning for autonomous vehicle maneuvers
-        - Collision avoidance and minimum-risk motion planning
-        - Path and trajectory tracking control
-        - Planning and control integration for safety-critical functions
-    - title: Validation
+        - Path and trajectory generation for autonomous vehicle maneuvers
+        - G2-continuous path generation with collision-avoidance constraints and consideration of vehicle dynamics
+        - Optimization-based planning for evasive maneuvers, automated trailer hitching, and trailer parking
+        - Integration of motion planning, trajectory tracking, and vehicle stabilization
+    - title: Implementation & Validation
       items:
-        - Model-based development and simulation using MATLAB/Simulink, CarSim, CarMaker, and Isaac Sim
+        - Algorithm development and implementation using C, Python, and MATLAB/Simulink
+        - Vehicle and scenario simulation using CarSim, CarMaker, and CARLA
         - Real-time implementation and rapid control prototyping using dSPACE MicroAutoBox II and NVIDIA Jetson AGX
-        - Vehicle integration, calibration, in-vehicle testing, and recorded-data analysis
-        - Requirements-based verification, unit and integration testing, and vehicle-level evaluation
+        - Vehicle integration, calibration, scenario-based testing, and recorded-data analysis
 
 - title: Experience
   type: time_table
@@ -42,26 +45,19 @@
       institution: HL Mando
       year: 2015.08 - Present
       description:
-        - title: Mobility Motion Control (2020 - Present)
+        - title: Vehicle Dynamics & Control / Motion Planning & Optimization
           contents:
-            - Technical lead and project owner for automotive planning and control functions
-            - Integrated Chassis Control and Vehicle Stability Control
-            - Evasive Collision Avoidance
-            - Smart Hitching Assist and Trailer Parking Assist
-            - Minimum Risk Maneuver
-        - title: System Design (2019 - 2020)
-          contents:
-            - E-Corner Module system design and analysis
-        - title: Gear Design (2015 - 2019)
-          contents:
-            - Electric Power Steering, Steer-by-Wire, Shift-by-Wire, and e-Drive systems
-            - Gear-system design, durability analysis, optimization, and in-house engineering tool development
+            - Lead vehicle control development from function architecture and algorithm design through simulation, real-time implementation, vehicle integration, calibration, and validation.
+            - Develop integrated chassis control using hierarchical control architectures, sliding-mode control, and optimal control allocation, alongside vehicle state estimation using Kalman filters, sliding-mode observers, and receding-horizon estimators.
+            - Develop motion planning and control algorithms for vehicle stability control, evasive collision avoidance, autonomous driving failover control, automated trailer hitching, and trailer parking. Apply nonlinear and optimization-based control methods (SMC, LQR, MPC, and MPPI), with G2-continuous path generation, collision-avoidance constraints, and consideration of vehicle dynamics.
+            - Implement and evaluate controllers using MATLAB/Simulink, Python, CarSim, CarMaker, CARLA, dSPACE MicroAutoBox II, and NVIDIA Jetson AGX. Development includes simulation and real-time prototyping, with real-world vehicle tuning and scenario-based testing for vehicle-evaluated functions.
+            - Earlier work included chassis system design for E-Corner modules, gear optimization, durability analysis, and multibody dynamics analysis for steering systems.
     - title: Research Engineer
       institution: Samsung Techwin (now Hanwha Aerospace)
       year: 2012.08 - 2015.07
       description:
-        - Integral helical gear design for turbo compressors
-        - Core system design and dynamic-system analysis
+        - Designed integral helical gears for turbo compressors and performed system dynamics analysis.
+        - Performed multibody dynamics analysis and vehicle stability assessment for vehicle-mounted remote weapon systems.
     - title: Engineering Intern
       institution: General Motors Korea
       year: 2011.07 - 2011.08
@@ -76,13 +72,13 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. Candidate in Mechanical Engineering
+    - title: Ph.D. in Mechanical Engineering (In Progress)
       institution: Seoul National University, Seoul, Republic of Korea
       year: 2023.03 - Present
       description:
         - Interactive and Networked Robotics Laboratory (INRoL)
         - Advisor — Professor Dongjun Lee
-        - Research focus — Supervisory Integrated Chassis Control Using Model Predictive Path Integral Control with Legacy Controllers
+        - Research focus — Supervisory vehicle control over legacy controllers
     - title: M.S. in Mechanical Engineering
       institution: Seoul National University, Seoul, Republic of Korea
       year: 2020.09 - 2022.06
@@ -101,7 +97,7 @@
       institution: HL Mando
       year: 2025.12
       description:
-        - Smart Hitching Assist development and customer demonstration
+        - Recognized for automated trailer hitching development and a successful customer demonstration.
     - title: Outstanding Paper Award — Oral Session
       institution: The Korean Society of Automotive Engineers (KSAE)
       year: 2025.11
@@ -138,16 +134,16 @@
       image_max_width: 260px
       image_alt: Kyungtack Lee receiving the Best Dialogue Award at EVS37
       image_caption: Best Dialogue Award at EVS37, 2024
-    - title: Mando Academic Training Program
+    - title: Selected for the HL Mando Academic Training Program
       institution: HL Mando
-      year: 2020.09
+      year: 2020.09 - 2022.08
       description:
         - Vehicle Dynamics and Control Laboratory, Seoul National University
-    - title: Excellence Project
+    - title: Excellence Award — R&D Core Technology
       institution: HL Mando
       year: 2020.04
       description:
-        - "Development of High-Torque Reduction Gear — Gear durability model based on S-N curves and gear temperature model"
+        - "Recognized for high-torque C-EPS reduction gear development, including gear durability modeling using S-N curves and gear temperature modeling."
     - title: Best Excellence Project
       institution: HL Mando
       year: 2018.12
