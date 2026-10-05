@@ -107,6 +107,13 @@ ninja.data = [{
           window.open("mailto:%6B%79%75%6E%67%74%61%63%6B%6C%65%65@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/kyungtack-lee-807390135", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
