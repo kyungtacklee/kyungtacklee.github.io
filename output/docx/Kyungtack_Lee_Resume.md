@@ -13,7 +13,8 @@ Vehicle dynamics and control engineer with more than ten years of experience in 
 
 - **Vehicle Dynamics & Control:** MPC/MPPI-based control and trajectory tracking; sliding-mode control for yaw, sideslip, and roll stabilization; supervisory integrated chassis control; steering–brake coordination and wheel-level control allocation
 - **Vehicle State Estimation:** Sideslip and velocity estimation; Kalman filtering; sliding-mode observers; moving horizon estimation (MHE)
-- **Motion Planning:** Continuous-curvature path generation; evasive maneuver planning; planning–control integration
+- **Motion Planning:** Learning-based path generation for trailer parking; RRT\* and Hybrid A\* for parking;\
+  vehicle-dynamics-aware emergency evasive path generation; continuous-curvature Bézier paths.
 - **Implementation & Validation:** C, MATLAB/Simulink, Python; scenario-based simulation with CarSim, CarMaker, and CARLA; real-time prototyping with dSPACE MicroAutoBox II and Jetson AGX; vehicle integration, calibration, and testing
 
 ## PROFESSIONAL EXPERIENCE
@@ -47,23 +48,21 @@ Vehicle dynamics and control engineer with more than ten years of experience in 
 
 ### Evasive Collision Avoidance (ECA) | HL Mando
 
-- Developed evasive path generation and coordinated braking, rear-wheel steering, and front-steering assistance for path tracking and vehicle stabilization around obstacles ahead.
-- Applied MPC-based integrated chassis control to combine path planning, tracking, and vehicle stabilization.
-- Implemented and evaluated the controller through simulation and vehicle testing using MATLAB/Simulink, CarSim, and dSPACE MicroAutoBox II.
+- Developed evasive path generation for maneuvers around obstacles ahead.
+- Applied MPC-based integrated chassis control to coordinate braking, rear-wheel steering, and front-steering assistance for path tracking and vehicle stabilization during evasive maneuvers.
+- Implemented and evaluated the system in simulation and vehicle tests using MATLAB/Simulink, CarSim, and dSPACE MicroAutoBox II.
 
 ### Smart Hitching Assist (SHA) | HL Mando
 
-- Developed low-speed automated driving for precise trailer hitch alignment using camera-based target-pose estimates.
-- Developed real-time obstacle avoidance and continuous-curvature path generation using Bézier curves.
-- Applied Lyapunov-informed MPPI for lateral alignment and speed-feedback control for longitudinal motion.
-- Performed real-time implementation, tuning, and vehicle evaluation using MATLAB/Simulink and dSPACE MicroAutoBox II.
-- Completed a customer demonstration and received a Company Special Recognition Award.
+- Developed real-time obstacle avoidance and continuous-curvature Bézier path generation for automated low-speed hitch alignment using camera-based target-pose estimates.
+- Applied Lyapunov-informed MPPI for lateral alignment and speed-feedback control for longitudinal motion. Implemented and tuned the function on dSPACE MicroAutoBox II, completed a customer demonstration, and received HL Mando’s Company Special Recognition Award.
+- Developed a perception-aware MPPI cost and a funnel-guided sampling prior to address target-pose uncertainty. Implemented the research controller in CUDA on NVIDIA Jetson AGX Orin and evaluated it on a Genesis G80EV, achieving mean absolute errors at standstill of 1.13 cm laterally and 0.61° in heading.
 
 ### Trailer Parking Assist (TPA) | HL Mando
 
-- Developed path planning and tracking control for forward and reverse parking maneuvers of a vehicle-trailer combination.
-- Applied sampling-based optimal control incorporating constraints to address jackknife risk.
-- Performed real-time implementation, tuning, and vehicle evaluation using MATLAB/Simulink and dSPACE MicroAutoBox II.
+- Developed constrained path planning for forward and reverse trailer parking to mitigate jackknife risk.
+- Improved the Hybrid A\* heuristic through learning and trained a direct path generator on MPPI expert trajectories.
+- Implemented sampling-based optimal tracking control using MATLAB/Simulink and dSPACE MicroAutoBox II.
 
 ### Integrated Chassis Control for Path Tracking and Vehicle Stability | HL Mando
 
@@ -98,6 +97,7 @@ Thesis: Path Tracking Control of Four-Wheel-Independent-Steering-and-Driving Veh
 
 ## SELECTED PUBLICATIONS & PATENTS
 
+- K. Lee et al., “Lyapunov-Informed MPPI for Precise Trailer Hitch Alignment under Target-Pose Uncertainty,” IEEE International Conference on Robotics and Automation (ICRA), 2027, **under review**.
 - K. Lee and J. Seol, "Development of Integrated Chassis Control of Semi-Active Suspension with Differential Brake for Vehicle Lateral Stability," World Electric Vehicle Journal, 16(2):91, 2025.
 - K. Lee et al., "Lyapunov-Informed Model Predictive Path Integral Control for Robust Trailer Hitch Assist under Perception Uncertainty," KSAE Annual Conference Proceedings, 2025.
 - K. Lee et al., "Continuous Curvature Path Planning Based on Bézier Curves for Autonomous Driving in Complex Environments," KSAE Annual Conference Proceedings, 2024.
